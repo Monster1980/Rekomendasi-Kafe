@@ -1,0 +1,243 @@
+# ============================================================
+# CLEANING LANJUTAN + SPLIT DATA TRAIN & TEST (80:20)
+# Input  : Hasil_Preprocessing.xlsx
+# Output : Data_Train.xlsx, Data_Test.xlsx, Rekap_Split.xlsx
+# ============================================================
+
+import pandas as pd
+import numpy as np
+import re
+from sklearn.model_selection import train_test_split
+
+# =========================
+# 1. BACA FILE
+# =========================
+print("=" * 60)
+print("CLEANING LANJUTAN + SPLIT DATA 80:20")
+print("=" * 60)
+
+df = pd.read_excel('Hasil_Preprocessing.xlsx')
+print(f"\n[1] Data dibaca : {len(df)} baris")
+
+# =========================
+# 2. CLEANING LANJUTAN
+#    Masalah yang ditemukan dari hasil preprocessing:
+#    a. Kata Inggris umum yang lolos (the, and, it, is, dll.)
+#    b. Kata 1-2 huruf tidak bermakna (rb, dg, sy, gk, dll.)
+#    c. Kata berakhiran -nya yang tidak ter-stem (cafenya, staffnya, dll.)
+#    d. Kata noise domain (overall, vibe, crowd, dll.)
+# =========================
+
+# a. Daftar kata Inggris yang harus dihapus
+english_stopwords = {
+    'the', 'and', 'is', 'are', 'was', 'were', 'it', 'its',
+    'for', 'of', 'in', 'to', 'with', 'my', 'me', 'so',
+    'but', 'not', 'very', 'just', 'like', 'good', 'great',
+    'nice', 'bad', 'best', 'must', 'try', 'such', 'which',
+    'place', 'crowd', 'crowded', 'vibe', 'vibes', 'warm',
+    'less', 'staff', 'review', 'overall', 'always', 'come',
+    'here', 'there', 'their', 'this', 'that', 'from', 'have',
+    'has', 'had', 'been', 'be', 'do', 'did', 'does', 'get',
+    'got', 'go', 'went', 'also', 'much', 'more', 'most',
+    'some', 'any', 'all', 'both', 'each', 'few', 'more',
+    'other', 'into', 'through', 'during', 'before', 'after',
+    'above', 'below', 'between', 'out', 'off', 'on', 'or',
+    'nor', 'yet', 'at', 'by', 'up', 'as', 'if', 'then',
+    'than', 'too', 'can', 'will', 'just', 'should', 'now',
+    'our', 'your', 'his', 'her', 'we', 'they', 'he', 'she',
+    'you', 'i', 'a', 'an', 'about', 'because', 'while',
+    'even', 'same', 'only', 'own', 'one', 'two', 'three',
+    'really', 'quite', 'actually', 'definitely', 'honestly',
+    'highly', 'totally', 'absolutely', 'pretty',
+    # Kata campuran Inggris-Indo
+    'must', 'try', 'hidden', 'gem', 'worth', 'vibesnya',
+    'ambiencenya', 'outdoor', 'indoor', 'coffeeshop',
+    'afterwork', 'nongkrong',
+}
+
+# b. Kata 1-2 huruf tidak bermakna yang lolos
+noise_short = {
+    'rb', 'dg', 'sy', 'gk', 'lt', 'ny', 'dn', 'cm', 'gt',
+    'jl', 'ku', 'ad', 'si', 'an', 'or', 'up', 'on', 'be',
+    'ac',  # bisa bermakna (AC = pendingin) tapi sering noise
+    'rb',  # ribuan / rupiah
+}
+
+# c. Kata berakhiran -nya → strip suffix -nya jika panjang > 5 huruf
+def strip_nya(word):
+    if word.endswith('nya') and len(word) > 5:
+        base = word[:-3]
+        # Hanya strip jika base masih masuk akal (>= 3 huruf)
+        if len(base) >= 3:
+            return base
+    return word
+
+# d. Semua stopwords yang perlu dihapus
+all_noise = english_stopwords | noise_short
+
+def clean_further(text):
+    if not isinstance(text, str) or text.strip() == '':
+        return ''
+    
+    words = text.split()
+    result = []
+    for word in words:
+        word = word.lower().strip()
+        
+        # Skip kata 1 huruf
+        if len(word) <= 1:
+            continue
+        
+        # Skip kata noise / Inggris
+        if word in all_noise:
+            continue
+        
+        # Strip suffix -nya
+        word = strip_nya(word)
+        
+        # Skip kata 2 huruf yang noise
+        if len(word) == 2 and word in noise_short:
+            continue
+            
+        result.append(word)
+    
+    return ' '.join(result)
+
+df['Ulasan Preprocessed'] = df['Ulasan Preprocessed'].apply(clean_further)
+
+print(f"[2] Cleaning lanjutan selesai:")
+print(f"    - Hapus kata Inggris umum ({len(english_stopwords)} kata)")
+print(f"    - Hapus kata pendek tidak bermakna ({len(noise_short)} kata)")
+print(f"    - Strip suffix '-nya' pada kata gabungan")
+
+# =========================
+# 3. HAPUS BARIS YANG JADI TERLALU PENDEK
+#    (kurang dari 3 kata setelah cleaning)
+# =========================
+before = len(df)
+df = df[df['Ulasan Preprocessed'].str.split().str.len() >= 3]
+df = df.reset_index(drop=True)
+after = len(df)
+print(f"\n[3] Hapus baris teks < 3 kata : {before - after} baris dihapus")
+print(f"    Data tersisa : {after} baris")
+
+# =========================
+# 4. CEK & PASTIKAN KOLOM LABEL BERSIH
+# =========================
+label_cols = ['Pelayanan', 'Suasana', 'Harga', 'Others']
+for col in label_cols:
+    df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0).astype(int).clip(0, 1)
+
+print(f"\n[4] Distribusi label final:")
+for col in label_cols:
+    n1 = df[col].sum()
+    n0 = len(df) - n1
+    print(f"    {col:12s}: label 1 = {n1:4d} ({n1/len(df)*100:.1f}%), label 0 = {n0:4d} ({n0/len(df)*100:.1f}%)")
+
+# =========================
+# 5. SPLIT DATA 80:20
+#    Menggunakan stratify pada label Pelayanan (label terbesar)
+#    agar distribusi kelas terjaga di train dan test
+# =========================
+X = df['Ulasan Preprocessed']
+y = df[label_cols]
+
+# Gunakan stratify pada kolom yang paling representatif
+# (gabungkan label jadi satu string untuk stratify multi-label)
+stratify_col = df[label_cols].astype(str).apply(''.join, axis=1)
+
+# Cek apakah ada kombinasi label yang terlalu sedikit (< 2 sampel)
+combo_counts = stratify_col.value_counts()
+rare_combos = combo_counts[combo_counts < 2]
+
+if len(rare_combos) > 0:
+    print(f"\n[5] Ada {len(rare_combos)} kombinasi label langka, stratify dinonaktifkan untuk stabilitas")
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y,
+        test_size=0.2,
+        random_state=42
+    )
+else:
+    print(f"\n[5] Stratify aktif — distribusi label terjaga di train & test")
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y,
+        test_size=0.2,
+        random_state=42,
+        stratify=stratify_col
+    )
+
+print(f"\n    Total data  : {len(df)}")
+print(f"    Data Train  : {len(X_train)} baris (80%)")
+print(f"    Data Test   : {len(X_test)} baris (20%)")
+
+# =========================
+# 6. SUSUN DATAFRAME TRAIN & TEST
+#    Gabungkan kembali semua kolom (bukan hanya X dan y)
+# =========================
+df_train = df.loc[X_train.index].reset_index(drop=True)
+df_test  = df.loc[X_test.index].reset_index(drop=True)
+
+# =========================
+# 7. SIMPAN KE EXCEL
+# =========================
+df_train.to_excel('Data_Train.xlsx', index=False)
+df_test.to_excel('Data_Test.xlsx', index=False)
+
+# =========================
+# 8. BUAT REKAP DISTRIBUSI LABEL
+# =========================
+rekap_rows = []
+for col in label_cols:
+    rekap_rows.append({
+        'Label'              : col,
+        'Total (1)'          : df[col].sum(),
+        'Total (0)'          : (df[col] == 0).sum(),
+        'Train (1)'          : df_train[col].sum(),
+        'Train (0)'          : (df_train[col] == 0).sum(),
+        'Test (1)'           : df_test[col].sum(),
+        'Test (0)'           : (df_test[col] == 0).sum(),
+        '% Train positif'    : f"{df_train[col].sum() / len(df_train) * 100:.1f}%",
+        '% Test positif'     : f"{df_test[col].sum() / len(df_test) * 100:.1f}%",
+    })
+
+df_rekap = pd.DataFrame(rekap_rows)
+
+# Simpan rekap ke sheet terpisah dalam 1 file
+with pd.ExcelWriter('Rekap_Split.xlsx', engine='openpyxl') as writer:
+    df_rekap.to_excel(writer, sheet_name='Rekap Label', index=False)
+
+    # Tambahkan info umum
+    info = pd.DataFrame({
+        'Keterangan': ['Total Data', 'Data Train (80%)', 'Data Test (20%)', 'Random State'],
+        'Nilai'     : [len(df), len(df_train), len(df_test), 42]
+    })
+    info.to_excel(writer, sheet_name='Info Split', index=False)
+
+# =========================
+# 9. OUTPUT RINGKASAN
+# =========================
+print("\n" + "=" * 60)
+print("SPLIT DATA SELESAI!")
+print("=" * 60)
+print(f"\n  File tersimpan:")
+print(f"    - Data_Train.xlsx  ({len(df_train)} baris)")
+print(f"    - Data_Test.xlsx   ({len(df_test)} baris)")
+print(f"    - Rekap_Split.xlsx (ringkasan distribusi label)")
+
+print(f"\n  Distribusi label Train vs Test:")
+print(f"  {'Label':<12} {'Train(1)':>8} {'Train(0)':>8} {'Test(1)':>8} {'Test(0)':>8}")
+print(f"  {'-'*46}")
+for col in label_cols:
+    t1 = df_train[col].sum()
+    t0 = (df_train[col] == 0).sum()
+    e1 = df_test[col].sum()
+    e0 = (df_test[col] == 0).sum()
+    print(f"  {col:<12} {t1:>8} {t0:>8} {e1:>8} {e0:>8}")
+
+print(f"\n  Contoh data train (3 baris pertama):")
+for i in range(min(3, len(df_train))):
+    print(f"  [{i+1}] {str(df_train['Ulasan Preprocessed'].iloc[i])[:80]}")
+    print(f"       P={df_train['Pelayanan'].iloc[i]} S={df_train['Suasana'].iloc[i]} H={df_train['Harga'].iloc[i]} O={df_train['Others'].iloc[i]}")
+
+print("\n" + "=" * 60)
+print("=" * 60)
