@@ -10,6 +10,7 @@ interface Review {
   suasana: number;
   harga: number;
   pelayanan: number;
+  others?: number;
 }
 
 interface Cafe {
@@ -21,10 +22,12 @@ interface Cafe {
   suasanaRating?: number;
   hargaRating?: number;
   pelayananRating?: number;
+  othersRating?: number;
   totalUlasan?: number;
   rankSuasana?: number;
   rankHarga?: number;
   rankPelayanan?: number;
+  rankOthers?: number;
   reviews: Review[];
 }
 
@@ -50,7 +53,7 @@ export default function HomePage() {
 
   // Pencarian bisa mencari nama kafe atau aspeknya
   const searchLower = searchTerm.toLowerCase().trim();
-  const isAspectSearch = ['suasana', 'harga', 'pelayanan'].some(a => searchLower.includes(a));
+  const isAspectSearch = ['suasana', 'harga', 'pelayanan', 'others', 'lainnya'].some(a => searchLower.includes(a));
   
   const filteredCafes = (cafeData as Cafe[]).filter((cafe) => {
     if (!searchTerm.trim()) return true;
@@ -77,6 +80,9 @@ export default function HomePage() {
   
   // Row C: Pelayanan (Service)
   const pelayananCafes = [...filteredCafes].sort((a, b) => (a.rankPelayanan || 99) - (b.rankPelayanan || 99));
+
+  // Row D: Others (Lainnya)
+  const othersCafes = [...filteredCafes].sort((a, b) => (a.rankOthers || 99) - (b.rankOthers || 99));
 
   // Helper: render star rating inline
   const renderStarsSmall = (rating: number) => {
@@ -105,6 +111,7 @@ export default function HomePage() {
   const showSuasana = !isAspectSearch || searchLower.includes('suasana');
   const showHarga = !isAspectSearch || searchLower.includes('harga');
   const showPelayanan = !isAspectSearch || searchLower.includes('pelayanan');
+  const showOthers = !isAspectSearch || searchLower.includes('others') || searchLower.includes('lainnya');
 
   return (
     <div className="bg-zinc-950 text-white min-h-screen font-sans overflow-x-hidden pb-16">
@@ -319,6 +326,58 @@ export default function HomePage() {
                         <div className="flex items-center gap-0.5 text-yellow-400 text-xs font-bold bg-black/60 px-2 py-0.5 rounded">
                           <div className="flex items-center gap-0.5">{renderStarsSmall(kafe.pelayananRating || 0)}</div>
                           <span className="ml-1">{kafe.pelayananRating}</span>
+                        </div>
+                      </div>
+                      
+                      <div className="space-y-1.5">
+                        <h3 className="font-extrabold text-sm text-white truncate">{kafe.name}</h3>
+                        <p className="text-[10px] text-zinc-300 truncate">{kafe.address || 'Surabaya'}</p>
+                        <button 
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setSelectedCafe(kafe);
+                          }}
+                          className="w-full bg-white hover:bg-zinc-200 text-black text-[10px] font-bold py-1.5 rounded text-center transition cursor-pointer"
+                        >
+                          Lihat Detail
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                ))
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* Row 4: Others */}
+        {showOthers && (
+          <div className="space-y-4">
+            <div className="flex items-baseline gap-2">
+              <h2 className="text-xl md:text-2xl font-bold tracking-wide text-white">Others</h2>
+              <span className="text-zinc-500 text-xs font-semibold">Aspek tambahan (kebersihan, lokasi, dll)</span>
+            </div>
+            <div className="flex gap-4 overflow-x-scroll pb-4 scrollbar-hide">
+              {othersCafes.length === 0 ? (
+                <div className="text-zinc-500 text-sm py-8 italic w-full">Tidak ada kafe ditemukan.</div>
+              ) : (
+                othersCafes.map((kafe) => (
+                  <div 
+                    key={`others-${kafe.id}`} 
+                    className="min-w-[260px] max-w-[260px] h-[150px] bg-zinc-900 rounded-lg overflow-hidden relative group cursor-pointer border border-zinc-800/40 shadow-md transition-all duration-300 hover:scale-105"
+                    onClick={() => setSelectedCafe(kafe)}
+                  >
+                    <img src={kafe.imageUrl} alt={kafe.name} className="w-full h-full object-cover group-hover:opacity-40 transition duration-300" />
+                    
+                    {/* Hover Information overlay */}
+                    <div className="absolute inset-0 p-4 flex flex-col justify-between bg-gradient-to-t from-black via-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+                      <div className="flex justify-between items-start">
+                        <span className="bg-orange-950/70 border border-orange-800 text-orange-400 text-[10px] px-2 py-0.5 rounded font-bold">
+                          ★ Others
+                        </span>
+                        <div className="flex items-center gap-0.5 text-yellow-400 text-xs font-bold bg-black/60 px-2 py-0.5 rounded">
+                          <div className="flex items-center gap-0.5">{renderStarsSmall(kafe.othersRating || 0)}</div>
+                          <span className="ml-1">{kafe.othersRating}</span>
                         </div>
                       </div>
                       

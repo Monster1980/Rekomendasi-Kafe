@@ -6,6 +6,7 @@ interface Review {
   suasana: number;
   harga: number;
   pelayanan: number;
+  others?: number;
 }
 
 interface Cafe {
@@ -17,10 +18,12 @@ interface Cafe {
   suasanaRating?: number;
   hargaRating?: number;
   pelayananRating?: number;
+  othersRating?: number;
   totalUlasan?: number;
   rankSuasana?: number;
   rankHarga?: number;
   rankPelayanan?: number;
+  rankOthers?: number;
   reviews: Review[];
 }
 
@@ -29,7 +32,7 @@ interface DetailModalProps {
   onClose: () => void;
 }
 
-type AspectTab = 'semua' | 'suasana' | 'harga' | 'pelayanan';
+type AspectTab = 'semua' | 'suasana' | 'harga' | 'pelayanan' | 'others';
 
 export default function DetailModal({ cafe, onClose }: DetailModalProps) {
   const [activeTab, setActiveTab] = useState<AspectTab>('semua');
@@ -48,6 +51,8 @@ export default function DetailModal({ cafe, onClose }: DetailModalProps) {
         return cafe.reviews.filter(r => r.harga === 1);
       case 'pelayanan':
         return cafe.reviews.filter(r => r.pelayanan === 1);
+      case 'others':
+        return cafe.reviews.filter(r => r.others === 1);
       default:
         return cafe.reviews;
     }
@@ -61,6 +66,7 @@ export default function DetailModal({ cafe, onClose }: DetailModalProps) {
     suasana: cafe.reviews ? cafe.reviews.filter(r => r.suasana === 1).length : 0,
     harga: cafe.reviews ? cafe.reviews.filter(r => r.harga === 1).length : 0,
     pelayanan: cafe.reviews ? cafe.reviews.filter(r => r.pelayanan === 1).length : 0,
+    others: cafe.reviews ? cafe.reviews.filter(r => r.others === 1).length : 0,
   };
 
   // Get aspect badges for a review
@@ -69,6 +75,7 @@ export default function DetailModal({ cafe, onClose }: DetailModalProps) {
     if (review.suasana === 1) badges.push({ label: 'Suasana', color: 'bg-emerald-500/10 border-emerald-500/20 text-emerald-400' });
     if (review.harga === 1) badges.push({ label: 'Harga', color: 'bg-blue-500/10 border-blue-500/20 text-blue-400' });
     if (review.pelayanan === 1) badges.push({ label: 'Pelayanan', color: 'bg-purple-500/10 border-purple-500/20 text-purple-400' });
+    if (review.others === 1) badges.push({ label: 'Others', color: 'bg-orange-500/10 border-orange-500/20 text-orange-400' });
     return badges;
   };
 
@@ -123,6 +130,7 @@ export default function DetailModal({ cafe, onClose }: DetailModalProps) {
     { key: 'suasana', label: 'Suasana', color: 'text-emerald-400/70 hover:text-emerald-400', activeColor: 'text-emerald-400 bg-emerald-950/40 border-emerald-700' },
     { key: 'harga', label: 'Harga', color: 'text-blue-400/70 hover:text-blue-400', activeColor: 'text-blue-400 bg-blue-950/40 border-blue-700' },
     { key: 'pelayanan', label: 'Pelayanan', color: 'text-purple-400/70 hover:text-purple-400', activeColor: 'text-purple-400 bg-purple-950/40 border-purple-700' },
+    { key: 'others', label: 'Others', color: 'text-orange-400/70 hover:text-orange-400', activeColor: 'text-orange-400 bg-orange-950/40 border-orange-700' },
   ];
 
   return (
@@ -189,7 +197,7 @@ export default function DetailModal({ cafe, onClose }: DetailModalProps) {
           </div>
 
           {/* Aspect Ratings with Stars */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
             {cafe.suasanaRating !== undefined && (
               <div className="bg-emerald-500/5 border border-emerald-500/15 rounded-lg p-3 space-y-1.5">
                 <div className="flex items-center justify-between">
@@ -215,6 +223,15 @@ export default function DetailModal({ cafe, onClose }: DetailModalProps) {
                   <span className="text-purple-400 text-sm font-bold">{cafe.pelayananRating}/5</span>
                 </div>
                 <div className="flex items-center gap-0.5">{renderStarsSmall(cafe.pelayananRating)}</div>
+              </div>
+            )}
+            {cafe.othersRating !== undefined && (
+              <div className="bg-orange-500/5 border border-orange-500/15 rounded-lg p-3 space-y-1.5">
+                <div className="flex items-center justify-between">
+                  <span className="text-orange-400 text-xs font-semibold uppercase tracking-wider">Others</span>
+                  <span className="text-orange-400 text-sm font-bold">{cafe.othersRating}/5</span>
+                </div>
+                <div className="flex items-center gap-0.5">{renderStarsSmall(cafe.othersRating)}</div>
               </div>
             )}
           </div>

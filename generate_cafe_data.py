@@ -183,10 +183,12 @@ def main():
     df_suasana = pd.read_excel(FILE_RANKING, sheet_name='Ranking Suasana')
     df_harga = pd.read_excel(FILE_RANKING, sheet_name='Ranking Harga')
     df_pelayanan = pd.read_excel(FILE_RANKING, sheet_name='Ranking Pelayanan')
+    df_others = pd.read_excel(FILE_RANKING, sheet_name='Ranking Others')
     
     print(f"    Suasana   : {len(df_suasana)} kafe")
     print(f"    Harga     : {len(df_harga)} kafe")
     print(f"    Pelayanan : {len(df_pelayanan)} kafe")
+    print(f"    Others    : {len(df_others)} kafe")
     
     # ── 2. Baca ulasan asli dari JSON ──
     print("\n[2] Membaca database_cafe_lengkap.json...")
@@ -219,12 +221,20 @@ def main():
             aspek_pelayanan = int(entry.get("Pelayanan", 0) or 0)
         except (ValueError, TypeError):
             aspek_pelayanan = 0
+            
+        try:
+            aspek_others = int(entry.get("others", 0) or 0)
+            if entry.get("others") is None and aspek_suasana == 0 and aspek_harga == 0 and aspek_pelayanan == 0:
+                aspek_others = 1
+        except (ValueError, TypeError):
+            aspek_others = 0
         
         review_obj = {
             "text": review,
             "suasana": aspek_suasana,
             "harga": aspek_harga,
-            "pelayanan": aspek_pelayanan
+            "pelayanan": aspek_pelayanan,
+            "others": aspek_others
         }
         
         if name not in reviews_map:
@@ -238,7 +248,7 @@ def main():
     
     # ── 3. Gabungkan semua nama kafe dari ketiga ranking ──
     all_cafes = set()
-    for df in [df_suasana, df_harga, df_pelayanan]:
+    for df in [df_suasana, df_harga, df_pelayanan, df_others]:
         all_cafes.update(df['Nama Cafe'].str.strip().tolist())
     
     print(f"\n[3] Total kafe unik dari ranking: {len(all_cafes)}")
@@ -255,25 +265,29 @@ def main():
         row_s = df_suasana[df_suasana['Nama Cafe'].str.strip() == cafe_name_clean]
         row_h = df_harga[df_harga['Nama Cafe'].str.strip() == cafe_name_clean]
         row_p = df_pelayanan[df_pelayanan['Nama Cafe'].str.strip() == cafe_name_clean]
+        row_o = df_others[df_others['Nama Cafe'].str.strip() == cafe_name_clean]
         
         # Ranking position (lebih rendah = lebih baik)
         rank_s = int(row_s['Ranking'].values[0]) if len(row_s) > 0 else 99
         rank_h = int(row_h['Ranking'].values[0]) if len(row_h) > 0 else 99
         rank_p = int(row_p['Ranking'].values[0]) if len(row_p) > 0 else 99
+        rank_o = int(row_o['Ranking'].values[0]) if len(row_o) > 0 else 99
         
         # % Ulasan Positif
         pct_s = float(row_s['% Ulasan Suasana'].values[0]) if len(row_s) > 0 else 0
         pct_h = float(row_h['% Ulasan Harga'].values[0]) if len(row_h) > 0 else 0
         pct_p = float(row_p['% Ulasan Pelayanan'].values[0]) if len(row_p) > 0 else 0
+        pct_o = float(row_o['% Ulasan Others'].values[0]) if len(row_o) > 0 else 0
         
         # Prob Rata-rata (confidence)
         prob_s = float(row_s['Prob Rata-rata Suasana'].values[0]) if len(row_s) > 0 else 0.3
         prob_h = float(row_h['Prob Rata-rata Harga'].values[0]) if len(row_h) > 0 else 0.3
         prob_p = float(row_p['Prob Rata-rata Pelayanan'].values[0]) if len(row_p) > 0 else 0.3
+        prob_o = float(row_o['Prob Rata-rata Others'].values[0]) if len(row_o) > 0 else 0.3
         
         # Rating Google Maps (ambil dari aspek manapun yang tersedia)
         rating_gmaps = None
-        for row in [row_s, row_h, row_p]:
+        for row in [row_s, row_h, row_p, row_o]:
             if len(row) > 0:
                 val = row['Rating Google Maps'].values[0]
                 if pd.notna(val):
@@ -282,7 +296,7 @@ def main():
         
         # Total ulasan (ambil dari aspek manapun)
         total_ulasan = 0
-        for row, col in [(row_s, 'Total Ulasan'), (row_h, 'Total Ulasan'), (row_p, 'Total Ulasan')]:
+        for row, col in [(row_s, 'Total Ulasan'), (row_h, 'Total Ulasan'), (row_p, 'Total Ulasan'), (row_o, 'Total Ulasan')]:
             if len(row) > 0:
                 total_ulasan = int(row[col].values[0])
                 break
@@ -292,9 +306,10 @@ def main():
         suasana_rating = compute_aspect_rating(pct_s, prob_s, rank_s, total_cafes)
         harga_rating = compute_aspect_rating(pct_h, prob_h, rank_h, total_cafes)
         pelayanan_rating = compute_aspect_rating(pct_p, prob_p, rank_p, total_cafes)
+        others_rating = compute_aspect_rating(pct_o, prob_o, rank_o, total_cafes)
         
         # Overall rating = rata-rata terbobot (lebih berat ke aspek terbaik)
-        overall = round((suasana_rating + harga_rating + pelayanan_rating) / 3, 1)
+        overall = round((suasana_rating + harga_rating + pelayanan_rating + others_rating) / 4, 1)
         
         # Jika ada rating Google Maps, lebih berat ke sana
         if rating_gmaps is not None:
@@ -332,10 +347,12 @@ def main():
             "suasanaRating": suasana_rating,
             "hargaRating": harga_rating,
             "pelayananRating": pelayanan_rating,
+            "othersRating": others_rating,
             "totalUlasan": total_ulasan,
             "rankSuasana": rank_s,
             "rankHarga": rank_h,
             "rankPelayanan": rank_p,
+            "rankOthers": rank_o,
             "reviews": reviews[:10]  # Max 10 reviews per kafe
         }
         
@@ -361,7 +378,7 @@ def main():
     print(f"  Tanpa ulasan       : {without_reviews} kafe")
     
     # Top 5 per aspek
-    for aspek, key in [("Suasana", "suasanaRating"), ("Harga", "hargaRating"), ("Pelayanan", "pelayananRating")]:
+    for aspek, key in [("Suasana", "suasanaRating"), ("Harga", "hargaRating"), ("Pelayanan", "pelayananRating"), ("Others", "othersRating")]:
         sorted_cafes = sorted(cafe_list, key=lambda x: x[key], reverse=True)
         print(f"\n  TOP 5 {aspek.upper()}:")
         for i, c in enumerate(sorted_cafes[:5], 1):
