@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Star } from 'lucide-react';
+import { X, Star, MapPin, ExternalLink } from 'lucide-react';
 
 interface Review {
   text: string;
@@ -39,6 +39,9 @@ export default function DetailModal({ cafe, onClose }: DetailModalProps) {
   
   const dummyAddress = "Jl. Raya Gubeng No. 12, Gubeng, Kec. Gubeng, Surabaya, Jawa Timur 60281";
   const address = cafe.address && cafe.address.trim() !== "" ? cafe.address : dummyAddress;
+
+  // Google Maps URL generated from cafe name + address for accuracy
+  const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(cafe.name + ' ' + address)}`;
   
   // Filter reviews by aspect tab
   const getFilteredReviews = (): Review[] => {
@@ -79,47 +82,29 @@ export default function DetailModal({ cafe, onClose }: DetailModalProps) {
     return badges;
   };
 
-  // Function to render stars
-  const renderStars = (rating: number) => {
+  // Function to render stars — supports 0.1 precision (like Google Maps)
+  const renderStars = (rating: number, size: 'lg' | 'sm' = 'lg') => {
+    const cls = size === 'lg' ? 'w-5 h-5' : 'w-3.5 h-3.5';
     const stars = [];
-    const floorRating = Math.floor(rating);
     for (let i = 1; i <= 5; i++) {
-      if (i <= floorRating) {
-        stars.push(<Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />);
-      } else if (i - 0.5 <= rating) {
+      const diff = rating - (i - 1);
+      if (diff >= 1) {
+        // Full star
+        stars.push(<Star key={i} className={`${cls} fill-yellow-400 text-yellow-400`} />);
+      } else if (diff > 0) {
+        // Partial star — width percentage reflects the fraction
+        const pct = Math.round(diff * 100);
         stars.push(
           <div key={i} className="relative inline-block">
-            <Star className="w-5 h-5 text-zinc-655" />
-            <div className="absolute top-0 left-0 overflow-hidden w-[50%]">
-              <Star className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+            <Star className={`${cls} text-zinc-600`} />
+            <div className="absolute top-0 left-0 overflow-hidden" style={{ width: `${pct}%` }}>
+              <Star className={`${cls} fill-yellow-400 text-yellow-400`} />
             </div>
           </div>
         );
       } else {
-        stars.push(<Star key={i} className="w-5 h-5 text-zinc-600" />);
-      }
-    }
-    return stars;
-  };
-
-  // Render small stars for aspect ratings
-  const renderStarsSmall = (rating: number) => {
-    const stars = [];
-    const floorRating = Math.floor(rating);
-    for (let i = 1; i <= 5; i++) {
-      if (i <= floorRating) {
-        stars.push(<Star key={i} className="w-3.5 h-3.5 fill-yellow-400 text-yellow-400" />);
-      } else if (i - 0.5 <= rating) {
-        stars.push(
-          <div key={i} className="relative inline-block">
-            <Star className="w-3.5 h-3.5 text-zinc-600" />
-            <div className="absolute top-0 left-0 overflow-hidden w-[50%]">
-              <Star className="w-3.5 h-3.5 fill-yellow-400 text-yellow-400" />
-            </div>
-          </div>
-        );
-      } else {
-        stars.push(<Star key={i} className="w-3.5 h-3.5 text-zinc-600" />);
+        // Empty star
+        stars.push(<Star key={i} className={`${cls} text-zinc-600`} />);
       }
     }
     return stars;
@@ -134,7 +119,7 @@ export default function DetailModal({ cafe, onClose }: DetailModalProps) {
   ];
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/85 backdrop-blur-md p-4 transition-all duration-300">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/85 backdrop-blur-md p-2 sm:p-4 transition-all duration-300">
       <style>{`
         @keyframes modalSlideUp {
           from {
@@ -155,10 +140,10 @@ export default function DetailModal({ cafe, onClose }: DetailModalProps) {
       <div className="absolute inset-0 cursor-pointer" onClick={onClose}></div>
 
       {/* Modal Content Box */}
-      <div className="bg-[#181818] text-white rounded-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto relative animate-modalSlideUp shadow-2xl border border-zinc-800 scrollbar-thin scrollbar-thumb-zinc-700 scrollbar-track-zinc-900">
+      <div className="bg-[#181818] text-white rounded-xl max-w-2xl w-full max-h-[95vh] overflow-y-auto relative animate-modalSlideUp shadow-2xl border border-zinc-800 scrollbar-thin scrollbar-thumb-zinc-700 scrollbar-track-zinc-900">
         
         {/* Header Banner */}
-        <div className="relative h-64 md:h-80 w-full bg-zinc-900">
+        <div className="relative h-48 sm:h-64 md:h-80 w-full bg-zinc-900">
           <img 
             src={cafe.imageUrl || "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800"} 
             alt={cafe.name} 
@@ -170,91 +155,107 @@ export default function DetailModal({ cafe, onClose }: DetailModalProps) {
           {/* Close Button */}
           <button 
             onClick={onClose} 
-            className="absolute top-4 right-4 bg-black/60 hover:bg-zinc-800/80 text-white rounded-full p-2 border border-zinc-700 transition cursor-pointer hover:scale-105 z-10"
+            className="absolute top-3 right-3 sm:top-4 sm:right-4 bg-black/60 hover:bg-zinc-800/80 text-white rounded-full p-2 border border-zinc-700 transition cursor-pointer hover:scale-105 z-10"
             aria-label="Close modal"
           >
-            <X className="w-5 h-5" />
+            <X className="w-4 h-4 sm:w-5 sm:h-5" />
           </button>
 
           {/* Title on Banner */}
-          <div className="absolute bottom-4 left-6 right-6">
-            <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight drop-shadow-md text-white">
+          <div className="absolute bottom-3 left-4 right-4 sm:bottom-4 sm:left-6 sm:right-6">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight drop-shadow-md text-white">
               {cafe.name}
             </h2>
           </div>
         </div>
 
         {/* Content Body */}
-        <div className="p-6 md:p-8 space-y-6">
+        <div className="p-4 sm:p-6 md:p-8 space-y-5 sm:space-y-6">
           
           {/* Rating and Info Details */}
-          <div className="flex flex-wrap items-center gap-4 text-sm text-zinc-300">
-            {/* Stars */}
+          <div className="flex flex-wrap items-center gap-3 text-sm text-zinc-300">
+            {/* Stars + Overall Rating */}
             <div className="flex items-center gap-1.5 bg-zinc-900/60 border border-zinc-800 px-3 py-1.5 rounded-full">
               <span className="text-yellow-400 font-bold">{cafe.overallRating}</span>
-              <div className="flex items-center gap-0.5">{renderStars(cafe.overallRating)}</div>
+              <div className="flex items-center gap-0.5">{renderStars(cafe.overallRating, 'lg')}</div>
             </div>
+            {cafe.totalUlasan && (
+              <span className="text-zinc-500 text-xs">({cafe.totalUlasan} ulasan)</span>
+            )}
           </div>
 
           {/* Aspect Ratings with Stars */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-2 sm:gap-3">
             {cafe.suasanaRating !== undefined && (
-              <div className="bg-emerald-500/5 border border-emerald-500/15 rounded-lg p-3 space-y-1.5">
+              <div className="bg-emerald-500/5 border border-emerald-500/15 rounded-lg p-2.5 sm:p-3 space-y-1.5">
                 <div className="flex items-center justify-between">
                   <span className="text-emerald-400 text-xs font-semibold uppercase tracking-wider">Suasana</span>
-                  <span className="text-emerald-400 text-sm font-bold">{cafe.suasanaRating}/5</span>
+                  <span className="text-emerald-400 text-sm font-bold">{cafe.suasanaRating}</span>
                 </div>
-                <div className="flex items-center gap-0.5">{renderStarsSmall(cafe.suasanaRating)}</div>
+                <div className="flex items-center gap-0.5">{renderStars(cafe.suasanaRating, 'sm')}</div>
               </div>
             )}
             {cafe.hargaRating !== undefined && (
-              <div className="bg-blue-500/5 border border-blue-500/15 rounded-lg p-3 space-y-1.5">
+              <div className="bg-blue-500/5 border border-blue-500/15 rounded-lg p-2.5 sm:p-3 space-y-1.5">
                 <div className="flex items-center justify-between">
                   <span className="text-blue-400 text-xs font-semibold uppercase tracking-wider">Harga</span>
-                  <span className="text-blue-400 text-sm font-bold">{cafe.hargaRating}/5</span>
+                  <span className="text-blue-400 text-sm font-bold">{cafe.hargaRating}</span>
                 </div>
-                <div className="flex items-center gap-0.5">{renderStarsSmall(cafe.hargaRating)}</div>
+                <div className="flex items-center gap-0.5">{renderStars(cafe.hargaRating, 'sm')}</div>
               </div>
             )}
             {cafe.pelayananRating !== undefined && (
-              <div className="bg-purple-500/5 border border-purple-500/15 rounded-lg p-3 space-y-1.5">
+              <div className="bg-purple-500/5 border border-purple-500/15 rounded-lg p-2.5 sm:p-3 space-y-1.5">
                 <div className="flex items-center justify-between">
                   <span className="text-purple-400 text-xs font-semibold uppercase tracking-wider">Pelayanan</span>
-                  <span className="text-purple-400 text-sm font-bold">{cafe.pelayananRating}/5</span>
+                  <span className="text-purple-400 text-sm font-bold">{cafe.pelayananRating}</span>
                 </div>
-                <div className="flex items-center gap-0.5">{renderStarsSmall(cafe.pelayananRating)}</div>
+                <div className="flex items-center gap-0.5">{renderStars(cafe.pelayananRating, 'sm')}</div>
               </div>
             )}
             {cafe.othersRating !== undefined && (
-              <div className="bg-orange-500/5 border border-orange-500/15 rounded-lg p-3 space-y-1.5">
+              <div className="bg-orange-500/5 border border-orange-500/15 rounded-lg p-2.5 sm:p-3 space-y-1.5">
                 <div className="flex items-center justify-between">
                   <span className="text-orange-400 text-xs font-semibold uppercase tracking-wider">Others</span>
-                  <span className="text-orange-400 text-sm font-bold">{cafe.othersRating}/5</span>
+                  <span className="text-orange-400 text-sm font-bold">{cafe.othersRating}</span>
                 </div>
-                <div className="flex items-center gap-0.5">{renderStarsSmall(cafe.othersRating)}</div>
+                <div className="flex items-center gap-0.5">{renderStars(cafe.othersRating, 'sm')}</div>
               </div>
             )}
           </div>
 
-          {/* Address */}
+          {/* Address + Google Maps Button */}
           <div className="space-y-2">
             <h3 className="text-xs uppercase tracking-widest text-zinc-400 font-semibold">Alamat Lengkap</h3>
-            <p className="text-zinc-200 text-sm leading-relaxed bg-zinc-900/40 p-4 rounded-lg border border-zinc-800">
-              {address}
-            </p>
+            <div className="bg-zinc-900/40 p-3 sm:p-4 rounded-lg border border-zinc-800 space-y-3">
+              <p className="text-zinc-200 text-sm leading-relaxed">
+                {address}
+              </p>
+              <a
+                href={googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 active:bg-blue-700 text-white text-xs font-semibold px-4 py-2 rounded-lg transition-all duration-200 hover:scale-105 active:scale-95 shadow-md"
+                aria-label="Buka di Google Maps"
+              >
+                <MapPin className="w-3.5 h-3.5" />
+                Buka di Google Maps
+                <ExternalLink className="w-3 h-3 opacity-70" />
+              </a>
+            </div>
           </div>
 
           {/* Reviews Section with Aspect Tabs */}
           <div className="space-y-4">
             <h3 className="text-xs uppercase tracking-widest text-zinc-400 font-semibold">Ulasan Customer</h3>
             
-            {/* Aspect Filter Tabs */}
-            <div className="flex flex-wrap gap-2">
+            {/* Aspect Filter Tabs — scrollable on mobile */}
+            <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-hide">
               {tabs.map((tab) => (
                 <button
                   key={tab.key}
                   onClick={() => setActiveTab(tab.key)}
-                  className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all duration-200 cursor-pointer ${
+                  className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all duration-200 cursor-pointer whitespace-nowrap flex-shrink-0 ${
                     activeTab === tab.key 
                       ? tab.activeColor 
                       : `${tab.color} border-zinc-800 bg-zinc-900/40`
@@ -270,9 +271,9 @@ export default function DetailModal({ cafe, onClose }: DetailModalProps) {
                 displayedReviews.map((rev, idx) => {
                   const badges = getAspectBadges(rev);
                   return (
-                    <div key={idx} className="bg-zinc-900/60 p-4 rounded-lg border border-zinc-800 hover:border-zinc-700 transition space-y-2">
-                      <div className="flex justify-between items-center text-xs">
-                        <div className="flex items-center gap-2">
+                    <div key={idx} className="bg-zinc-900/60 p-3 sm:p-4 rounded-lg border border-zinc-800 hover:border-zinc-700 transition space-y-2">
+                      <div className="flex flex-wrap justify-between items-center gap-2 text-xs">
+                        <div className="flex flex-wrap items-center gap-2">
                           <span className="text-red-500 font-semibold">Reviewer #{idx + 1}</span>
                           {badges.map((badge, bIdx) => (
                             <span key={bIdx} className={`${badge.color} border px-2 py-0.5 rounded-full text-[10px] font-semibold`}>
@@ -280,7 +281,7 @@ export default function DetailModal({ cafe, onClose }: DetailModalProps) {
                             </span>
                           ))}
                         </div>
-                        <span className="text-zinc-550">Verified Visit</span>
+                        <span className="text-zinc-550 hidden sm:block">Verified Visit</span>
                       </div>
                       <p className="text-zinc-300 text-sm leading-relaxed italic">
                         &ldquo;{rev.text}&rdquo;
