@@ -172,6 +172,45 @@ def compute_aspect_rating(persen_positif, prob_rata2, ranking_pos, total_cafes=7
     return round(max(1.0, min(5.0, combined)), 1)
 
 
+def select_balanced_reviews(reviews, max_count=10):
+    if len(reviews) <= max_count:
+        return reviews
+    
+    s_list = [r for r in reviews if r.get("suasana") == 1]
+    h_list = [r for r in reviews if r.get("harga") == 1]
+    p_list = [r for r in reviews if r.get("pelayanan") == 1]
+    o_list = [r for r in reviews if r.get("others") == 1]
+    
+    selected = []
+    selected_texts = set()
+    
+    buckets = [h_list, p_list, o_list, s_list]
+    indices = [0, 0, 0, 0]
+    
+    added = True
+    while len(selected) < max_count and added:
+        added = False
+        for i, bucket in enumerate(buckets):
+            if len(selected) >= max_count:
+                break
+            if indices[i] < len(bucket):
+                rev = bucket[indices[i]]
+                indices[i] += 1
+                if rev["text"] not in selected_texts:
+                    selected.append(rev)
+                    selected_texts.add(rev["text"])
+                    added = True
+                    
+    for rev in reviews:
+        if len(selected) >= max_count:
+            break
+        if rev["text"] not in selected_texts:
+            selected.append(rev)
+            selected_texts.add(rev["text"])
+            
+    return selected
+
+
 def main():
     print("=" * 65)
     print("  GENERATE CAFE DATA DARI RANKING BAB 4")
@@ -308,12 +347,12 @@ def main():
         pelayanan_rating = compute_aspect_rating(pct_p, prob_p, rank_p, total_cafes)
         others_rating = compute_aspect_rating(pct_o, prob_o, rank_o, total_cafes)
         
-        # Overall rating = rata-rata terbobot (lebih berat ke aspek terbaik)
-        overall = round((suasana_rating + harga_rating + pelayanan_rating + others_rating) / 4, 1)
-        
-        # Jika ada rating Google Maps, lebih berat ke sana
+        # Overall rating = rating Google Maps langsung jika tersedia (revisi: tampilkan rating sama dengan Google Maps)
         if rating_gmaps is not None:
-            overall = round(0.6 * overall + 0.4 * rating_gmaps, 1)
+            overall = rating_gmaps
+        else:
+            overall = round((suasana_rating + harga_rating + pelayanan_rating + others_rating) / 4, 1)
+
         
         # Cari alamat
         address = address_map.get(cafe_name_clean, "")
@@ -353,7 +392,7 @@ def main():
             "rankHarga": rank_h,
             "rankPelayanan": rank_p,
             "rankOthers": rank_o,
-            "reviews": reviews[:10]  # Max 10 reviews per kafe
+            "reviews": select_balanced_reviews(reviews, 10)  # Kurasi agar ulasan aspek terdistribusi seimbang
         }
         
         cafe_list.append(cafe_item)

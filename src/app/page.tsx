@@ -72,7 +72,7 @@ export default function HomePage() {
     name: "Fifteenth Café",
     address: "Jl. Raya Kupang Indah No. 15, Dukuh Kupang, Kec. Dukuhpakis, Surabaya Barat",
     imageUrl: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200",
-    overallRating: 4.6,
+    overallRating: 4.9,
     suasanaRating: 4.8,
     hargaRating: 4.4,
     pelayananRating: 4.7,
@@ -260,8 +260,8 @@ export default function HomePage() {
                           ★ Suasana
                         </span>
                         <div className="flex items-center gap-0.5 text-yellow-400 text-xs font-bold bg-black/60 px-1.5 py-0.5 rounded">
-                          <div className="flex items-center gap-0.5">{renderStarsSmall(kafe.suasanaRating || 0)}</div>
-                          <span className="ml-1">{kafe.suasanaRating}</span>
+                          <div className="flex items-center gap-0.5">{renderStarsSmall(kafe.overallRating || 0)}</div>
+                          <span className="ml-1">{kafe.overallRating}</span>
                         </div>
                       </div>
                       
@@ -314,8 +314,8 @@ export default function HomePage() {
                           ★ Harga
                         </span>
                         <div className="flex items-center gap-0.5 text-yellow-400 text-xs font-bold bg-black/60 px-1.5 py-0.5 rounded">
-                          <div className="flex items-center gap-0.5">{renderStarsSmall(kafe.hargaRating || 0)}</div>
-                          <span className="ml-1">{kafe.hargaRating}</span>
+                          <div className="flex items-center gap-0.5">{renderStarsSmall(kafe.overallRating || 0)}</div>
+                          <span className="ml-1">{kafe.overallRating}</span>
                         </div>
                       </div>
                       
@@ -368,8 +368,8 @@ export default function HomePage() {
                           ★ Pelayanan
                         </span>
                         <div className="flex items-center gap-0.5 text-yellow-400 text-xs font-bold bg-black/60 px-1.5 py-0.5 rounded">
-                          <div className="flex items-center gap-0.5">{renderStarsSmall(kafe.pelayananRating || 0)}</div>
-                          <span className="ml-1">{kafe.pelayananRating}</span>
+                          <div className="flex items-center gap-0.5">{renderStarsSmall(kafe.overallRating || 0)}</div>
+                          <span className="ml-1">{kafe.overallRating}</span>
                         </div>
                       </div>
                       
@@ -422,8 +422,8 @@ export default function HomePage() {
                           ★ Others
                         </span>
                         <div className="flex items-center gap-0.5 text-yellow-400 text-xs font-bold bg-black/60 px-1.5 py-0.5 rounded">
-                          <div className="flex items-center gap-0.5">{renderStarsSmall(kafe.othersRating || 0)}</div>
-                          <span className="ml-1">{kafe.othersRating}</span>
+                          <div className="flex items-center gap-0.5">{renderStarsSmall(kafe.overallRating || 0)}</div>
+                          <span className="ml-1">{kafe.overallRating}</span>
                         </div>
                       </div>
                       

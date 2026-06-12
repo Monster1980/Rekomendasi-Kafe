@@ -4,7 +4,7 @@
         "name": "Afterwork Caffeine",
         "address": "G-Walk, Jl. Niaga Gapura No. 150, Sambikerep, Surabaya Barat",
         "imageUrl": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.4,
+        "overallRating": 4.7,
         "suasanaRating": 3.2,
         "hargaRating": 1.5,
         "pelayananRating": 3.3,
@@ -16,10 +16,24 @@
         "rankOthers": 15,
         "reviews": [
             {
+                "text": "Bintang 5 semua.\nPertama kali kesini kasirnya baik sekali mau bantu pilih minuman yg cocok buat saya. ",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "Tempatnya nyaman buat ngopi santai setelah kerja. Suasananya tenang dan enak buat ngobrol atau duduk agak lama.\nMinumannya enak, disajikan rapi. Pelayanannya ramah dan cukup cepat. Overall tempatnya nyaman dan layak buat jadi spot afterwork.",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Bagi yang ingin suka nongkrong sambil teman yang lain? Coba tempat yang satu ini karena salah satu tempat nongkrong yang ada di G-Walk pas lagi lewat. Makanannya enak banget! Yang paling dicoba adalah Nasi Goreng karena rasanya pas dan enak. Harganya cukup menengah, tapi porsi ini cukup untuk yang santai saja jika ingin mau.",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
                 "others": 0
             },
             {
@@ -30,10 +44,10 @@
                 "others": 0
             },
             {
-                "text": "Bintang 5 semua.\nPertama kali kesini kasirnya baik sekali mau bantu pilih minuman yg cocok buat saya. ",
+                "text": "Tempat nongkrong asik sih, minuman nya juga rasanya dapet banget\nHarganya juga standar coffeeshop lainnya, tapi ini beda kita boleh bawa pulang botol nya juga ",
                 "suasana": 0,
                 "harga": 1,
-                "pelayanan": 1,
+                "pelayanan": 0,
                 "others": 0
             },
             {
@@ -41,6 +55,13 @@
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "I always come here atleast once/twice a month.\nSuch a cozy & warm place, perfect & affordable beverages💕 the workers are nice, very welcoming✨ ",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
                 "others": 0
             },
             {
@@ -58,28 +79,7 @@
                 "others": 0
             },
             {
-                "text": "Bagi yang ingin suka nongkrong sambil teman yang lain? Coba tempat yang satu ini karena salah satu tempat nongkrong yang ada di G-Walk pas lagi lewat. Makanannya enak banget! Yang paling dicoba adalah Nasi Goreng karena rasanya pas dan enak. Harganya cukup menengah, tapi porsi ini cukup untuk yang santai saja jika ingin mau.",
-                "suasana": 0,
-                "harga": 1,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempatnya nyaman banget. Untuk rasa kopinya juga enak, paling suka yang rosee ada aroma bunga mawar, rasa juga tidak terlalu strong. Yang grey rasanya buat penasaran, untuk rasa kopi juga tidak terlalu strong. Samosa mantul banget.. yang classic kurang berasa.",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempat yg nyaman untuk duduk santai dan menikmati rasa lelah.",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempat nongkrong asik sih, minuman nya juga rasanya dapet banget\nHarganya juga standar coffeeshop lainnya, tapi ini beda kita boleh bawa pulang botol nya juga ",
+                "text": "Bagi yang pernah tinggal di Jakarta, harga kopinya termasuk murah dibanding harga kopi di Jakarta dan enak lagi rasanya. Cuma lokasinya agak jauh dari pusat kota, jadi harus pakai kendaraan pribadi ke sananya. Walaupun di malam hari pas hari kerja, kafenya tetap ramai.",
                 "suasana": 0,
                 "harga": 1,
                 "pelayanan": 0,
@@ -92,7 +92,7 @@
         "name": "Alecta",
         "address": "Jl. Raya Gubeng No. 12, Gubeng, Kec. Gubeng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.4,
+        "overallRating": 4.7,
         "suasanaRating": 2.7,
         "hargaRating": 2.1,
         "pelayananRating": 3.2,
@@ -104,24 +104,10 @@
         "rankOthers": 19,
         "reviews": [
             {
-                "text": "suka sama tempatnya, cozy, ada area indoor dan outdoor, cuma minus parkirnya di luar jadi kalo hujan kayak aku tadi kesana itu agak ribet ya karena mereka juga ngga sediaiin payung sama sekali. ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "vibe di sini langsung bikin nyaman banget, cocok buat yang mau ngopi sambil mengenang masa lalu atau sekadar cari tempat tenang buat kerja/belajar.\nNostalgia Vibe & Suasana Juara: ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Pesan salah satu menu signature nya yaitu ice mocha tiramisu, rasanya enak dan unik. Suasana di coffee shop ini sangat nyaman seperti di rumah, termasuk cukup rindang dan sejuk karena banyak tanaman di halaman belakangnya. Ada pilihan ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
+                "text": "jauh jauh dari luar jawa cuman buat samperin cafe yang sering lewat fyp tiktok ini ternyataa se worth it itu dari segi makanan atau pun dari minuman apalagi pelayanan yang sangat” ramah",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 1,
                 "others": 0
             },
             {
@@ -132,18 +118,25 @@
                 "others": 0
             },
             {
-                "text": "Ambiencenya nyaman dan cocok banget buat WFC, apalagi tersedia colokan di beberapa area. Suasananya tenang dan mendukung untuk kerja atau sekadar nongkrong lebih lama. ",
+                "text": "Datang kesini karena beberapa kali reviewnya lewat di beranda TikTok for it’s photobooth and aesthetic spots (re: foto-foto cantik haha) dan ternyata bener kok, hasil photoboothnya bagusss untuk sekelas cafe, tapi mirror dan tidak bisa ",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
+            },
+            {
+                "text": "suka sama tempatnya, cozy, ada area indoor dan outdoor, cuma minus parkirnya di luar jadi kalo hujan kayak aku tadi kesana itu agak ribet ya karena mereka juga ngga sediaiin payung sama sekali. ",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
                 "others": 0
             },
             {
-                "text": "Datang kesini karena beberapa kali reviewnya lewat di beranda TikTok for it’s photobooth and aesthetic spots (re: foto-foto cantik haha) dan ternyata bener kok, hasil photoboothnya bagusss untuk sekelas cafe, tapi mirror dan tidak bisa ",
+                "text": "Enak sekali kopinyaa aku suka. Rice bowl sambel matahnya juga enak. Worth the price sih. Tempatnya juga luas enak bgt.",
                 "suasana": 0,
-                "harga": 0,
+                "harga": 1,
                 "pelayanan": 0,
-                "others": 1
+                "others": 0
             },
             {
                 "text": "it was not worth the price, truffle nya asin pol,nasi gorengnya nothing special, chocolate nya too sweet. some space gerah pfttt",
@@ -153,17 +146,24 @@
                 "others": 1
             },
             {
-                "text": "jauh jauh dari luar jawa cuman buat samperin cafe yang sering lewat fyp tiktok ini ternyataa se worth it itu dari segi makanan atau pun dari minuman apalagi pelayanan yang sangat” ramah",
-                "suasana": 0,
-                "harga": 1,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "ambience nya enak bgt dan nyaman jg buat nongkrong sm tmn tmn, cocok buat nugas ato kencan yaaw gengs",
+                "text": "vibe di sini langsung bikin nyaman banget, cocok buat yang mau ngopi sambil mengenang masa lalu atau sekadar cari tempat tenang buat kerja/belajar.\nNostalgia Vibe & Suasana Juara: ",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Satu lagi kafe dengan memakai bangunan tua sebagai tempatnya. Bagus ini. Harga di kisaran 20 ribuan utk minuman. Pastinya bukan level warkop. Nyobain cireng nya enak, onion ring nya juga enak, cuma mungkin bisa agak fresh sedikit bawang ",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "cafenya super aestetik, nyaman juga buat wfc, pelayanan ramah, minumannya jugaa cocok",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 1,
                 "others": 0
             },
             {
@@ -180,7 +180,7 @@
         "name": "Andzero",
         "address": "Jl. Nginden Intan Timur II No. A1-20, Nginden Jangkungan, Kec. Sukolilo, Surabaya Timur",
         "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.7,
         "suasanaRating": 1.6,
         "hargaRating": 1.8,
         "pelayananRating": 3.7,
@@ -192,6 +192,13 @@
         "rankOthers": 20,
         "reviews": [
             {
+                "text": "Pelayanan 5 starrrr. Dpt welcome drink + smooking indoor + wifi kenceng + harga affordable.",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "cafe nya underrated pdhl nyaman baget buat nugas/nongkrong. Tempat suasana dan pelayanannya oke, ada smoking area indoor, dpt welcome drink, menu makannya enak2 8/10 very worth the price. Saran sy welcome drink nya dimasukkan menu aja ",
                 "suasana": 1,
                 "harga": 0,
@@ -199,14 +206,14 @@
                 "others": 0
             },
             {
-                "text": "iseng kesini karna bingung mau kemana, untuk tempatnya bener” nyaman, pelayanan ramah, cocok untuk nugas juga, untuk rasa makanan dn minuman yg saya pesan tidak ada yg gagal semuanya bener” enak, dapat welcome drink juga ya, nextime kesini lagi mau coba menu yg lain, sekian✨💗 ",
+                "text": "Pelayanan ramah. Buka pintu pun sampai dibukakan oleh waitress. Ada playground untuk anak kecil di belakang. Toilet sangat bersih. Makanan pun sebanding dengan harganya. ",
                 "suasana": 0,
-                "harga": 0,
+                "harga": 1,
                 "pelayanan": 1,
                 "others": 0
             },
             {
-                "text": "Cafe Resto yang makanannya enak semua. Pelayanan ramah banget. Tempat nyaman. Wajib cobain ke sini",
+                "text": "iseng kesini karna bingung mau kemana, untuk tempatnya bener” nyaman, pelayanan ramah, cocok untuk nugas juga, untuk rasa makanan dn minuman yg saya pesan tidak ada yg gagal semuanya bener” enak, dapat welcome drink juga ya, nextime kesini lagi mau coba menu yg lain, sekian✨💗 ",
                 "suasana": 0,
                 "harga": 0,
                 "pelayanan": 1,
@@ -220,16 +227,16 @@
                 "others": 0
             },
             {
-                "text": "First impression ke cafe ini bener-bener cozy tempatnya. Datang udah langsung disambut ramah banget sama petugas nya. Pesannya langsung di meja tempat kita duduk, scan barcode langsung tinggal pilih, dan payment nya di akhir. ",
-                "suasana": 0,
-                "harga": 0,
-                "pelayanan": 1,
+                "text": "Cafe dengan salah satu pelayanan yang ramah, suasana cafe nya juga nyaman, pelayanan terhitung cukup cepat, dengan rasa yang cukup enak menurut saya..  harga makanan standart cafe menurut saya. ",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
                 "others": 0
             },
             {
-                "text": "Pelayanan 5 starrrr. Dpt welcome drink + smooking indoor + wifi kenceng + harga affordable.",
+                "text": "Cafe Resto yang makanannya enak semua. Pelayanan ramah banget. Tempat nyaman. Wajib cobain ke sini",
                 "suasana": 0,
-                "harga": 1,
+                "harga": 0,
                 "pelayanan": 1,
                 "others": 0
             },
@@ -241,21 +248,14 @@
                 "others": 0
             },
             {
-                "text": "Pelayanan ramah. Buka pintu pun sampai dibukakan oleh waitress. Ada playground untuk anak kecil di belakang. Toilet sangat bersih. Makanan pun sebanding dengan harganya. ",
+                "text": "Bener bener worth it ke tempat ini , harganya standard tapi yang di dapat bener bner supricely, minumannya beli chococ enak banget pasta rendangnya juga enak poll dengan harga ga smpek 100k dpet beef slice diatasnya ga pelit sih , ",
                 "suasana": 0,
                 "harga": 1,
-                "pelayanan": 1,
+                "pelayanan": 0,
                 "others": 0
             },
             {
-                "text": "Top food , top service ,top ambience. Saran macam makanan yg kids friendly ditambah.",
-                "suasana": 0,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Sumpah keren,pelayanannya banyak cafe/coffee shop hanya mementingkan produk dan lupa tentang service excelent\ntapi tempat ini Product&service Good,dan tahu Cara ngetreat customernya keren puol!! Food 5/5. Beverage 5/5.",
+                "text": "First impression ke cafe ini bener-bener cozy tempatnya. Datang udah langsung disambut ramah banget sama petugas nya. Pesannya langsung di meja tempat kita duduk, scan barcode langsung tinggal pilih, dan payment nya di akhir. ",
                 "suasana": 0,
                 "harga": 0,
                 "pelayanan": 1,
@@ -268,7 +268,7 @@
         "name": "Arah coffe Kertajaya",
         "address": "Surabaya, Jawa Timur",
         "imageUrl": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.7,
         "suasanaRating": 3.2,
         "hargaRating": 1.4,
         "pelayananRating": 2.3,
@@ -287,17 +287,17 @@
                 "others": 0
             },
             {
-                "text": "Tempatnya baru dan super nyaman, terus luas juga. Very recomended🤌🏻 ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
                 "text": "Pelayanan baik, wifi kencang, ambient ruangannya nyaman banget buat nugas dan diskusi2",
                 "suasana": 0,
                 "harga": 0,
                 "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Tempatnya baru dan super nyaman, terus luas juga. Very recomended🤌🏻 ",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 0,
                 "others": 0
             },
             {
@@ -315,6 +315,13 @@
                 "others": 0
             },
             {
+                "text": "pelayanan sangat ramahc, tempt nya sangat cozy bgt",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "Cafe ditengah kota yg tmp nya cozy dan pas bgt buat chill bareng temen\" ❤️❤️",
                 "suasana": 1,
                 "harga": 0,
@@ -322,8 +329,8 @@
                 "others": 0
             },
             {
-                "text": "pelayanan sangat ramahc, tempt nya sangat cozy bgt",
-                "suasana": 0,
+                "text": "Tempat nya cozy pelayanan nya ramah 👍🏻 ",
+                "suasana": 1,
                 "harga": 0,
                 "pelayanan": 1,
                 "others": 0
@@ -336,14 +343,7 @@
                 "others": 0
             },
             {
-                "text": "tempat yang nyaman dan kopi yg enak",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempat nya cozy pelayanan nya ramah 👍🏻 ",
+                "text": "Tempat nya cozy, staffnya ramah banget",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 1,
@@ -356,7 +356,7 @@
         "name": "Artap Café",
         "address": "Jl. Dr. Ir. H. Soekarno No. 424, Kedung Baruk, Kec. Rungkut, Surabaya Timur (MERR)",
         "imageUrl": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.3,
+        "overallRating": 4.4,
         "suasanaRating": 3.6,
         "hargaRating": 1.9,
         "pelayananRating": 2.4,
@@ -368,9 +368,9 @@
         "rankOthers": 8,
         "reviews": [
             {
-                "text": "Tempatnya bagus, terutama untuk yang outdoor, cuman sayang smoking area.\nMakanan rata2 enak, penampilan makanan juga bagus. Harga sedikit overprice, tapi masih oke.\nPelayanan bagus , ramah.",
-                "suasana": 1,
-                "harga": 0,
+                "text": "Tempat ngumpul untuk kalangan menengah ke atas. Harga minuman mulai dari 27k dan makanan mulai 30k. Untuk rasa cukup sesuai dengan harga apalagi ditambah tempat yang bagus, nyaman, dan bersih. ",
+                "suasana": 0,
+                "harga": 1,
                 "pelayanan": 0,
                 "others": 0
             },
@@ -382,28 +382,7 @@
                 "others": 0
             },
             {
-                "text": "Suasananya emang nyaman banget sih ini cafe, kebetulan pas dateng lagi sepi jadi berasa lebih classy. Food? Excellent. Service? Super ramah and helpfull. Cocok banget buat yg mau nge date",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempat ngumpul untuk kalangan menengah ke atas. Harga minuman mulai dari 27k dan makanan mulai 30k. Untuk rasa cukup sesuai dengan harga apalagi ditambah tempat yang bagus, nyaman, dan bersih. ",
-                "suasana": 0,
-                "harga": 1,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "tempatnya cozyy banget, lagi soft opening jadi banyak diskon, ada live music juga.\ntoilet bersih dan ada musholla nya juga.",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempat bagus nyaman ngga berisik dan crowd, oke bgt buat kumpul arisan, makanan enak semua jd harga worth it 🫶🏻 ",
+                "text": "Tempatnya bagus, terutama untuk yang outdoor, cuman sayang smoking area.\nMakanan rata2 enak, penampilan makanan juga bagus. Harga sedikit overprice, tapi masih oke.\nPelayanan bagus , ramah.",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
@@ -417,13 +396,6 @@
                 "others": 0
             },
             {
-                "text": "Tempatnya cozy, outdornya juga bagus terutama saat malam.\nRasa makanannya enak, tapi untuk minumannya biasa aja.\nOverall oke banget untuk santai..",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
                 "text": "Artap caffe makanan dan minumannya enak semuaaa ! pelayanannya juga cepat ! goodjobbb ! ✨🌈 ",
                 "suasana": 0,
                 "harga": 0,
@@ -431,10 +403,38 @@
                 "others": 0
             },
             {
+                "text": "Suasananya emang nyaman banget sih ini cafe, kebetulan pas dateng lagi sepi jadi berasa lebih classy. Food? Excellent. Service? Super ramah and helpfull. Cocok banget buat yg mau nge date",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "- Tempatnya nyaman dan cocok untuk hang out bareng temen.\n- Harga lumayan range 30-50K\n- Ada mushollah\n- Parkir sempit",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
                 "text": "Lokasi cukup mudah dijangkau daerah Merr seberang hotel Dafam, makananan dan minuman  lumayan ( 8/10 ), pelayanan cukup memuaskan, tempat bagus banyak spot buat foto foto dan klo malam ada live musiknya juga ada area indoor dan outdoor",
                 "suasana": 0,
                 "harga": 0,
                 "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "tempatnya cozyy banget, lagi soft opening jadi banyak diskon, ada live music juga.\ntoilet bersih dan ada musholla nya juga.",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Cafenya lumayan santai, tapi masalah harga aku tidak begitu rekomendasikan untuk kalian nak muda yg jajannya pas pasan 😆 karena akupun juga begitu. ",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
                 "others": 0
             }
         ]
@@ -444,7 +444,7 @@
         "name": "Arung Senja",
         "address": "Jl. Jemursari No. 78, Jemur Wonosari, Kec. Wonocolo, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.5,
         "suasanaRating": 3.3,
         "hargaRating": 2.8,
         "pelayananRating": 1.4,
@@ -456,13 +456,6 @@
         "rankOthers": 22,
         "reviews": [
             {
-                "text": "cozy and good food. cocok buat sarapan pas weekend, suasananya nyaman ada sofa wakau kadang udh ditempatin duluan soalnya empuk dan enak wkwk i hope they add more tho biar makin nyaman. buat colokan tenang aja ada banyak dan bisa minta terminal ke kasirnya, ada outdoornya juga buat yg ngerokok.",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
                 "text": "udah beberapa kali kesini dan baru nulis ulasan google, untuk makanan semua menunya menurut aku enakkk banget dan worth it juga sama harganya. suasanya juga oke banget, tempatnya nyaman dan cocok untuk menghabiskan waktu. namun sayang ",
                 "suasana": 1,
                 "harga": 1,
@@ -470,21 +463,21 @@
                 "others": 0
             },
             {
-                "text": "Cafe nugas friendly\nKl kesini sekedar nongkrong dan tempatnya yg indoor full karena di buat nugas, kalian bisa di outdoornya tapi ya panas 😁 ",
+                "text": "Suasana asik\nPelayanan lumayan cepat untuk ukuran cafe krn makanan msh mengepul brarti pesen bru dimasak ",
                 "suasana": 1,
                 "harga": 0,
-                "pelayanan": 0,
+                "pelayanan": 1,
                 "others": 0
             },
             {
-                "text": "Salah satu kafe rekomen di Surabaya selatan. Menu makanan dan minumannya enak-enak. Cocok buat mengerjain tugas kuliah, kantor krn dilengkapi dg kabel olor dan wifi 😁 ",
-                "suasana": 1,
+                "text": "Selalu suka sama cafe dengan konsep gini banyak buku",
+                "suasana": 0,
                 "harga": 0,
                 "pelayanan": 0,
-                "others": 0
+                "others": 1
             },
             {
-                "text": "makanannya enak dan fresh,\nsuasana nyaman cenderung ramai, utk kaum introvert kayak aku masih cocok sih 🤭 disediakan banyak buku bacaan. Pemesanan dan pembayaran mudah & langsung di kasir, hanya saja parkir mobil yang agak susah kalau rame. ",
+                "text": "cozy and good food. cocok buat sarapan pas weekend, suasananya nyaman ada sofa wakau kadang udh ditempatin duluan soalnya empuk dan enak wkwk i hope they add more tho biar makin nyaman. buat colokan tenang aja ada banyak dan bisa minta terminal ke kasirnya, ada outdoornya juga buat yg ngerokok.",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
@@ -498,6 +491,20 @@
                 "others": 0
             },
             {
+                "text": "Cafee cozy dan menunyaaa mantap-mantap. Sebelum kesini baca review dlu kok ada yg blg gak ramah dll, padahal menurutku pelayannya ramah-ramah. Spagetinya enak, tekstur spagetinya pas bumbu pas porsi pas harga pas!!!!! YG TERPENTING BEBAS PARKIR!!!",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Long Blacknya favorite! mau dingin atau panas, suka semua ...",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
+            },
+            {
                 "text": "makanannya enak dan murahhhh ada musholla, toiletnya jg bersih 👍🏻 ",
                 "suasana": 1,
                 "harga": 1,
@@ -505,21 +512,14 @@
                 "others": 0
             },
             {
-                "text": "Kafe yang sangat nyaman , tempat parkir baik motor dan mobil cukup luas. Makanannya banyak variasinya, baik Menu Pasta, Nasi , Mie, Salad semuanya enak. Yang paling enak adalah Nasi Ayam Madu dan seluruh topping Donat-nya. The best Donuts in Surabaya!",
+                "text": "Menurut saya tempatnya bisa cocok untuk work from cafe, sekarang tempatnya cukup luas, bersih dan tidak terlalu berisik juga. Pelayanannya cukup baik, terdapat menu yang disediakan dengan harga yang sangat terjangkau. Makanan dan minumannya enak semua~",
                 "suasana": 1,
                 "harga": 0,
-                "pelayanan": 0,
+                "pelayanan": 1,
                 "others": 0
             },
             {
-                "text": "Tempat nongkrong ternyaman, gak bising, playlist musiknya gak norak, menu makanan dan minumannya enak-enak semua, harganya juga masih wajar.\nAda stop kontak buat charger. ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Cafe dengan suasana ternyamann,\nAda musholla\nTempat hangout semua kalangan ",
+                "text": "Cafe nugas friendly\nKl kesini sekedar nongkrong dan tempatnya yg indoor full karena di buat nugas, kalian bisa di outdoornya tapi ya panas 😁 ",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
@@ -532,7 +532,7 @@
         "name": "At Koffie Graha",
         "address": "Graha Famili, Wiyung, Surabaya Barat",
         "imageUrl": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.1,
+        "overallRating": 4.5,
         "suasanaRating": 4.0,
         "hargaRating": 1.4,
         "pelayananRating": 1.3,
@@ -544,10 +544,24 @@
         "rankOthers": 23,
         "reviews": [
             {
+                "text": "+ Parking luas, customers seating banyak, pelayanan cepat dan cukup helpful, ramah dan informatif. ",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "Selain kopi, wajib order menu matcha di sini, salah satu favoritku adalah 𝐦𝐚𝐭𝐜𝐡𝐚 𝐜𝐡𝐢, dinikmati bersama banana cake dari Frolic, hmm makin nikmat! Sambil nungguin yang maen padel, tempatnya cukup cozy dan bikin betah. ",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Recently opened at koffie lab in graha padel club surabaya. Actually, tadi pesenan saya sempat ketuker, harusnya yuzu americano jadi iced americano. Tapi setelah saya cek ulang, barista nya langsung ganti kopi saya dengan yg baru. And then ",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
                 "others": 0
             },
             {
@@ -562,20 +576,6 @@
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "+ Parking luas, customers seating banyak, pelayanan cepat dan cukup helpful, ramah dan informatif. ",
-                "suasana": 0,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Recently opened at koffie lab in graha padel club surabaya. Actually, tadi pesenan saya sempat ketuker, harusnya yuzu americano jadi iced americano. Tapi setelah saya cek ulang, barista nya langsung ganti kopi saya dengan yg baru. And then ",
-                "suasana": 0,
-                "harga": 0,
-                "pelayanan": 1,
                 "others": 0
             },
             {
@@ -620,7 +620,7 @@
         "name": "Au Café",
         "address": "Jl. Manyar Kertoarjo III No. 75, Manyar Sabrangan, Kec. Mulyorejo, Surabaya Timur",
         "imageUrl": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.7,
         "suasanaRating": 3.5,
         "hargaRating": 1.4,
         "pelayananRating": 1.9,
@@ -632,38 +632,10 @@
         "rankOthers": 24,
         "reviews": [
             {
-                "text": "Tempatnya di perumahan ya, jadi tenang gitu suasana nyaaa\nkurang cocok buat wfc karena stop kontaknya di indoor cuma 2 (sayang bangetttt) tapi sebenernya tempat nya enak\noverall matcha nya enakk 💕 ",
-                "suasana": 1,
+                "text": "Untuk sekian kali nya dateng ke Aucafe, makin terkesima dengan pelayanannya, mbak nya ramah banget mau ngejelasin coffee maupun jenis matcha yg di display secara detail ",
+                "suasana": 0,
                 "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Sangat suka suasana nya.\nNyaman.. cocok untuk nongkrong santai.\nPelayanan ramah ❤️ ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Datang kesini atas rekomeasi teman, tempatnya nyaman walaupun sedikit ada nyamuk karena konsepnya outdoor dan ada pohon besar di belakangnya.\nRasa kopinya enak, selalu sempetin kesini kalau pas ke surabaya.",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Suasananya tenang dan aesthetic dalam setiap sudut, minuman yang dijual bervariasi, rasa matchanya enak dan soft di lidah, untuk pilihan matcha nya ada harumi no au dan meiko untuk penjelasannya bisa ditanyakan langsung saat pesan, ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Aucafe Specialty Coffee merupakan salah satu kafe yang menonjol dengan konsep modern dan fokus kuat pada kualitas kopi. Tempat ini cocok bagi para penikmat kopi serius yang ingin menikmati racikan kopi dengan karakter rasa yang lebih ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
+                "pelayanan": 1,
                 "others": 0
             },
             {
@@ -674,10 +646,10 @@
                 "others": 1
             },
             {
-                "text": "Untuk sekian kali nya dateng ke Aucafe, makin terkesima dengan pelayanannya, mbak nya ramah banget mau ngejelasin coffee maupun jenis matcha yg di display secara detail ",
-                "suasana": 0,
+                "text": "Tempatnya di perumahan ya, jadi tenang gitu suasana nyaaa\nkurang cocok buat wfc karena stop kontaknya di indoor cuma 2 (sayang bangetttt) tapi sebenernya tempat nya enak\noverall matcha nya enakk 💕 ",
+                "suasana": 1,
                 "harga": 0,
-                "pelayanan": 1,
+                "pelayanan": 0,
                 "others": 0
             },
             {
@@ -688,17 +660,45 @@
                 "others": 0
             },
             {
-                "text": "Lokasi cafenya dalam kompleks perumahan dengan konsep unin dan minimalis jepang interiornya. Ada tempat outdoornya juga. Ada koridor beralaskan batu kerikil. Keren sih.. saya pesan au signature, lalu kurozato. Tempatnya ngga seberapa besar.",
+                "text": "Saya tetap beri bintang 5. Untuk suasana yang nyaman , area depan tidak terlalu luas dekat dengan bar nya. Saya bukan penikmat kopi namun saya sangat menikmati kopi di aucafe, saya dipilihkan ausignature dengan rasa kopi yang tidak strong, ",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
+            },
+            {
+                "text": "Sangat suka suasana nya.\nNyaman.. cocok untuk nongkrong santai.\nPelayanan ramah ❤️ ",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
                 "others": 0
             },
             {
-                "text": "Secara lokasi sebenarnya agak susah diidentifikasi karena tempat ini tidak memiliki plang dari jalan. Secara desain mengusung minimalist Japanese yang bener-bener estetik dan rapi banget. Terlebih dengan penataan taman yang rapi berpadukan ",
+                "text": "Makanan enak, minuman juga enak, pelayannya ramah dan asik, tempatnya suka banget tenang gak terlalu ramai, cocok buat ngobrol.\nSarannya yang outdoor belakang lebih di manfaatkan sih kasih kanopi atau apa ",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Jujur agak bingung sih pas awal ke sini karna letaknya di dalem perumahan, dan dari depan pun ga keliatan kalo ini cafe karna gaada plang gede atau apapun. Suasananya tenang dan enak buat kerja, alaala Jejepangan jadi ada lesehan juga ",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
+            },
+            {
+                "text": "Datang kesini atas rekomeasi teman, tempatnya nyaman walaupun sedikit ada nyamuk karena konsepnya outdoor dan ada pohon besar di belakangnya.\nRasa kopinya enak, selalu sempetin kesini kalau pas ke surabaya.",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Tempatnya adem, sepi, ada di dalam perumahan. Nuansa Japanese desain interiornya. Cocok banget kalau mau diem sendirian di sini. Stafnya ramah-ramah banget.",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 1,
                 "others": 0
             }
         ]
@@ -708,7 +708,7 @@
         "name": "Avere",
         "address": "Jl. Darmo Indah Timur No. 18, Tandes, Surabaya Barat",
         "imageUrl": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.3,
+        "overallRating": 4.7,
         "suasanaRating": 3.2,
         "hargaRating": 1.7,
         "pelayananRating": 2.6,
@@ -727,6 +727,13 @@
                 "others": 0
             },
             {
+                "text": "Udah buka dari pagi, wajib coba kopi karamelnya. Rasanya beda dari yang lain.. Wenak pwol",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
+            },
+            {
                 "text": "Pertama kali ke Avere Cafe dan langsung suka banget sama tempatnya! Dari luar keliatan biasa aja, tapi pas masuk suasananya cozy dan adem banget. Pelayanannya juga ramah, bikin betah dari awal. Tempatnya cocok banget buat nongkrong santai, nugas, atau sekadar cari suasana baru. Fix bakal balik lagi ke sini sih 😍☕️ ",
                 "suasana": 1,
                 "harga": 0,
@@ -741,17 +748,17 @@
                 "others": 0
             },
             {
-                "text": "Suasananya oke bgt! Enak bgt buat nongki lama\" jadinya 😊 ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
                 "text": "Tempatnya seru banget dan enak buat nongkrong. Pelayanannya ramah dan informatif. Makanan dan minumnya juara pokoknya puas banget nongkrong di avere cafe",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Suasananya oke bgt! Enak bgt buat nongki lama\" jadinya 😊 ",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 0,
                 "others": 0
             },
             {
@@ -762,13 +769,6 @@
                 "others": 0
             },
             {
-                "text": "Tempatnya sangat nyaman.Makanan dan Minumannya juga enak.cocok buat nugas",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
                 "text": "suka banget nongkrong di kafe ini karena suasananya cozy banget, bikin betah lama-lama nongkrong sambil ngobrol sama temen. Kopinya enak, pilihannya juga banyak. Selain itu, pelayanannya juga ramah, pokoknya recommended banget!",
                 "suasana": 1,
                 "harga": 0,
@@ -776,17 +776,17 @@
                 "others": 0
             },
             {
-                "text": "minumannya enak, americanonya jos, tempatnya pw, dingin ac nya, suasana indoor enak buat belajar tidak berisik",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
                 "text": "Pelayanan cepat gak antri lama, harga murah.\nKalo kesini cobain singkong goreng nya, THE BEST!! 👍👍👍👍 ",
                 "suasana": 0,
                 "harga": 0,
                 "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Tempatnya sangat nyaman.Makanan dan Minumannya juga enak.cocok buat nugas",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 0,
                 "others": 0
             }
         ]
@@ -796,7 +796,7 @@
         "name": "Bangi Café",
         "address": "Jl. Rungkut Madya No. 99, Rungkut Kidul, Kec. Rungkut, Surabaya Timur",
         "imageUrl": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.3,
+        "overallRating": 4.4,
         "suasanaRating": 3.3,
         "hargaRating": 2.5,
         "pelayananRating": 2.4,
@@ -808,6 +808,13 @@
         "rankOthers": 2,
         "reviews": [
             {
+                "text": "Cafe yang besar dan nyaman banget, untuk harga standart cafe lah, kmaren pesen bihun dan hot plate chicken salted egg. Untuk bihun okelah gak pakai bihun jagung, tp untuk yg salted egg agak berlebihan asinnya jd agak mblenek kalau makan banyak. Ada 2 lantai yang indoor dan outdoor. Pelayanannya pun ramah dan cepat.",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "cukup nyaman, ada indoor dan outdoor, yg ac an cuma yg lt 1. total 2 lantai, posisi di pinggir jalan raya, parkir luas, price so so lah ya. karyawannya ramah, cukup nyaman buat ngobrol atau kumpul bareng temen/keluarga, kurang rekomen buat nugas soalnya colokan terbatas",
                 "suasana": 1,
                 "harga": 0,
@@ -815,9 +822,37 @@
                 "others": 0
             },
             {
+                "text": "Suasana enak nih. Makanan juga sip mulai daro indomie sampe spaghetti",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
+            },
+            {
+                "text": "Harga menengah ke atas.\nMenunya biasa aja.\nTadi nyobain: ",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
                 "text": "Tempatnya bagus sangat bersih nyaman buat tempat mengobrol bersama keluarga ataupun untuk meeting kantor pelayanan baik dan ramah udah datang ke dua kalinya",
                 "suasana": 1,
                 "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Harga menengah ke atas ya, siomay 3 biji harga 43.000 . :)",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
+            },
+            {
+                "text": "Kopinya enak... Snack lumayan. Tempat luas dan bersih, begitu pelanggan pulang langsung dibersihkan. Ada areal VIP. Dua lantai. Pelayanan cepat. Lokasi dkt Bundaran Waru, sebelah bank Mandiri Achmad Yani. Harga standar. Parkir luas dan mushola juga bersih. Jempol",
+                "suasana": 1,
+                "harga": 1,
                 "pelayanan": 1,
                 "others": 0
             },
@@ -829,50 +864,15 @@
                 "others": 0
             },
             {
-                "text": "Cafe yang besar dan nyaman banget, untuk harga standart cafe lah, kmaren pesen bihun dan hot plate chicken salted egg. Untuk bihun okelah gak pakai bihun jagung, tp untuk yg salted egg agak berlebihan asinnya jd agak mblenek kalau makan banyak. Ada 2 lantai yang indoor dan outdoor. Pelayanannya pun ramah dan cepat.",
-                "suasana": 1,
-                "harga": 1,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Suasana cozy dgn musik indonesia ke kinian, cocok buat enjoy dan bersama teman. Ada menu mie bandung.",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Suasananya enak, pelayanannya ramah, pesen minuman, lemon tea & es Teh Tarik, harga standard restaurant, menurut saya aga mahal",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Harga menengah ke atas.\nMenunya biasa aja.\nTadi nyobain: ",
+                "text": "Mie kejaksaannya enak, sayangnya jam 9 sudah close order",
                 "suasana": 0,
-                "harga": 1,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Kafe baru di Surabaya Selatan. Seringnya dibuat kumpul-kumpul komunitas nih. Tempatnya emang asyik sih. Parkiran luas.\nMenu makanannya Indo-Melayu dan tentu halal dong. ",
-                "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
-                "others": 0
+                "others": 1
             },
             {
-                "text": "Tempat nongkrong baru nih di Jl. Ayani ! Exteriornya bagus dan parkiran cukup luas. Terdiri dari 2 lantai, yg lantai 2 lebih buat smoking area. Di lantai 1 nya ada area indoor dan outdoor. Desainnya modern dan suasana nya cukup nyaman. ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Kopinya enak... Snack lumayan. Tempat luas dan bersih, begitu pelanggan pulang langsung dibersihkan. Ada areal VIP. Dua lantai. Pelayanan cepat. Lokasi dkt Bundaran Waru, sebelah bank Mandiri Achmad Yani. Harga standar. Parkir luas dan mushola juga bersih. Jempol",
-                "suasana": 1,
+                "text": "Harga dan kualitas TOP, harga seperti cafe pada umumnya.tapi soal rasanya TOP 5jempol apa lagi pelayanannya,kalau sedang dilantai atas gak perlu turun buat panggil mbak/mas nya,cukup pencet tombol mas/mbaknya akan dengan senang hati naik ke lantai atas untuk bantu, BAGUS",
+                "suasana": 0,
                 "harga": 1,
                 "pelayanan": 1,
                 "others": 0
@@ -884,7 +884,7 @@
         "name": "Bara Cafe",
         "address": "Jl. Ketintang No. 156, Ketintang, Kec. Gayungan, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.4,
+        "overallRating": 4.7,
         "suasanaRating": 2.5,
         "hargaRating": 2.7,
         "pelayananRating": 3.1,
@@ -896,10 +896,31 @@
         "rankOthers": 26,
         "reviews": [
             {
+                "text": "makanannya enak, harganya juga terjangkau, dan pelayanannya good, untuk tempatnya juga nyaman",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "Rasa makanan dan minumannya lumayan aja. Harga terjangkau. Tempat nyaman dan pelayanan bagus.",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Dateng kesini pas baru banget buka jadi aga sepi, sofa nya empuk banget + suhu AC nya pas jadi nya nyaman banget banget. Dikasih free lychee tea sambil nunggu mesin espresso nya baru nyala perkara dateng terlalu awal ya ampun maaf and ",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
+            },
+            {
+                "text": "Rekomendasi untuk mau kerja dari kafe dengan harga terjangkau. Dekat dengan masjid agung. Jave coffee-nya enak, begitu juga dengan nasi goreng merahnya.",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
                 "others": 0
             },
             {
@@ -910,11 +931,25 @@
                 "others": 0
             },
             {
+                "text": "Suasana nya enak banget buat nyantai, nugas, maupun kumpul bareng. Udah sering kesini sejak 2023 TOP",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
+            },
+            {
                 "text": "Tempat strategis area jalan raya dan tempat ibadah, cocok sekali dituju saat menunggu waktu ibadah 😊\nSedikit masukan buat pelayannya, saat masih dimeja sudah infokan orderan apa² ",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 1,
                 "others": 0
+            },
+            {
+                "text": "Suasana pagi yang cerah ini sangat cocok untuk menyeruput secangkir kopi hangat.  Aroma kopi yang semerbak menciptakan suasana yang nyaman dan akrab.  Berbagi cerita dan pengalaman bersama komunitas tentu akan semakin menghangatkan suasana. ",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
             },
             {
                 "text": "Baru pertama, gak niat mampir awalnya. Bolehlah dicoba. Pelayanannya cepat, mas-masnya sat set. Kayaknya okenya hanya pas mulai senja",
@@ -924,46 +959,11 @@
                 "others": 0
             },
             {
-                "text": "Tempat nyaman dan bersih, ada lantai 2. Rasa makanan lumayan, harga wajar. Mobil mending parkir masjid jalan kaki. Cocok untuk nunggu waktu sholat atsu nyantai habis sholat.",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Kmrin ksni rame2 sama emak2 tmn sekolah ber 8 , seru, nyaman, skrg tmbh bagus cafe nya setelah bdo renov, nti siang mau ksni lgi ngajak tetangga hehe",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "pelayanannya busettt, bagus bgtt, pemandangannya juga cakepp (lgsg ke masjid agungg), aku pesen apayahh lupaa, tp atas minumannya ada ice creamnyaa jd uenakk poll",
+                "text": "19/09/2023\n\nTempat: oke strategis dan suasana nyaman, diatas juga angin cukup🍃🍃💨, view ",
                 "suasana": 0,
                 "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Mampir setelah kajian dr Masjid Agung, deket banget tinggal nyebrang. Karena baru buka ada beberapa menu yg belum ready, tapi overall enak, tempat juga nyaman",
-                "suasana": 1,
-                "harga": 0,
                 "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Cafe yang nyaman dan berada di dekat masjid Al Akbar Surabaya. Lokasi sangat strategis, pelayanan ramah dan cepat. Parkiran mobil berada di gang samping cafe. Banyak menu yg bisa dipilih tetapi menurut saya dari segi rasa perlu ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Suasana enakk banget, makanan nya lezatt, tempatnyaa okee poll",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
+                "others": 1
             }
         ]
     },
@@ -972,7 +972,7 @@
         "name": "BnD Café",
         "address": "Jl. Ngagel Jaya Selatan, Kec. Gubeng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.3,
+        "overallRating": 4.7,
         "suasanaRating": 2.7,
         "hargaRating": 2.2,
         "pelayananRating": 2.8,
@@ -989,7 +989,7 @@
         "name": "Brown Bear Baker and Café",
         "address": "Jl. Raya Kupang Indah No. 5, Sonokwijenan, Kec. Sukomanunggal, Surabaya Barat",
         "imageUrl": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.4,
+        "overallRating": 4.9,
         "suasanaRating": 3.1,
         "hargaRating": 1.4,
         "pelayananRating": 3.2,
@@ -1001,10 +1001,38 @@
         "rankOthers": 28,
         "reviews": [
             {
+                "text": "Tempatnya cozy, lagi ada dekorasi Natal juga jadi makin estetik. Makanannya enak-enak dan harganya aman di kantong. Worth it buat ngafe nyantai disini",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
                 "text": "Pertama kali kesini karena fomo siy, pelayanan ok sat set, ramah. Ada owner-nya juga ramah banget. Lalu disini saya pesan pastry tiramisu bar & lemon meringue rasanya enak, manis nya pas. Minuman juice, buahnya segar. Tempatnya bersih, cozy. Harga juga terjangkau dan ramah di kantong. So recommended buat yang mau nongki syantik.",
                 "suasana": 0,
                 "harga": 0,
                 "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "untuk pizza meat lover potongan 8 slice rasa enak dan worth it",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
+            },
+            {
+                "text": "Pertama cobain karna lihat lokasi enak dan tempat kelihatannya cozy & bagus. Book untuk acara baby shower, tapi sangat di sayangkan experience nya ngga terlalu baik. Banyak problem dalam proses booking meja untuk event ini, yang seharusnya ",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Tempatnya cozy dan estetik banget.kopinya enakpastrynya yummy wajib banget dicobain🥰😍 harganya masih affordable🥰 ",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
                 "others": 0
             },
             {
@@ -1015,13 +1043,6 @@
                 "others": 0
             },
             {
-                "text": "Pertama cobain karna lihat lokasi enak dan tempat kelihatannya cozy & bagus. Book untuk acara baby shower, tapi sangat di sayangkan experience nya ngga terlalu baik. Banyak problem dalam proses booking meja untuk event ini, yang seharusnya ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
                 "text": "lokasi deket rumah dan ternyata cukup luas & nyaman yaa, pelayanan juga smuanya ramah & gercep, varian pastrynya banyak banget lucu2 gede2 dan harganya cukup terjangkauu🥰 ",
                 "suasana": 1,
                 "harga": 0,
@@ -1029,7 +1050,7 @@
                 "others": 0
             },
             {
-                "text": "Tempatnya cozy, lagi ada dekorasi Natal juga jadi makin estetik. Makanannya enak-enak dan harganya aman di kantong. Worth it buat ngafe nyantai disini",
+                "text": "Makananya enak, harganya jg terjangkau",
                 "suasana": 0,
                 "harga": 1,
                 "pelayanan": 0,
@@ -1043,30 +1064,9 @@
                 "others": 0
             },
             {
-                "text": "Cafe yg menyenangkan, cocok buat sore hari.. tempat santai untuk ngobrol.. makanan minuman enak, pelayanannya ramah",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "pelayanan baikk ramah, makanan enak. suka brown bear dirty latte nya",
+                "text": "Makanan nya enak, pelayanan nya bagus, harga dan juga terjangkau ❤️❤️",
                 "suasana": 0,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Tempat nya nyaman, pelayanan oke, makanan nya juga enak",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Ambience sangat baik\nService sangat ramah dan baik ",
-                "suasana": 0,
-                "harga": 0,
+                "harga": 1,
                 "pelayanan": 1,
                 "others": 0
             }
@@ -1077,7 +1077,7 @@
         "name": "Bunbee Korean Bakery and Café",
         "address": "Jl. Raya Gubeng No. 33, Gubeng, Kec. Gubeng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.6,
         "suasanaRating": 3.3,
         "hargaRating": 2.0,
         "pelayananRating": 2.1,
@@ -1089,13 +1089,6 @@
         "rankOthers": 29,
         "reviews": [
             {
-                "text": "Bunbee punya vibes yang cozy dengan pelayanan ramah. Suasananya cukup nyaman untuk sekadar nongkrong, ngobrol santai, atau bahkan sambil kerja. ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
                 "text": "Kami order menu French Breakfast ala Bunbee. Ini enak. Kami juga order Dak Gang Jung, crispy chicken saus ala Korea. Enak juga. Untuk harganya standard harga cafe. Menunya bervariasi dari snack hingga makanan berat. Ada bakerynya juga. Tempat bagus dan nyaman.",
                 "suasana": 0,
                 "harga": 1,
@@ -1103,9 +1096,23 @@
                 "others": 0
             },
             {
-                "text": "Nyaman banget tempatnya. Enak buat nongkrong dan makanannya enak semua ga ada yg gagal",
+                "text": "Bunbee punya vibes yang cozy dengan pelayanan ramah. Suasananya cukup nyaman untuk sekadar nongkrong, ngobrol santai, atau bahkan sambil kerja. ",
                 "suasana": 1,
                 "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Pizzanya boleh dicoba ya,ga terlalu tebal but ga terlalu tipis juga",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
+            },
+            {
+                "text": "Hidden gem pecinta desert di surabaya💕 rotinya enak2, utk croissant bisa minta diangetin. Croissant-nya besar dan macam2 rasanya. Harga juga standar masih bervariasi antara 15rb-50rb-an. Tersedia minuman dan makanan ala barat juga. Platingnya lucu & bagus. Tempat juga bagus dan pelayanan juga ramah. ",
+                "suasana": 0,
+                "harga": 1,
                 "pelayanan": 0,
                 "others": 0
             },
@@ -1117,10 +1124,17 @@
                 "others": 0
             },
             {
-                "text": "untuk suasana tempatnya sih enak dan nyaman, pilihan roti dan pastrynya pun juga banyak bgt & dari segi harga masih tergolong oke ya❤️ kata temenku custard cream breadnya enak bgt, aq belum coba sih🤣 ",
+                "text": "Nyaman banget tempatnya. Enak buat nongkrong dan makanannya enak semua ga ada yg gagal",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Makanan enak dan harga terjangkau. Tempat nya super bersih pelayanan yang diberikan TERBAIK.",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 1,
                 "others": 0
             },
             {
@@ -1131,29 +1145,15 @@
                 "others": 0
             },
             {
+                "text": "Tempat yang nyaman. Sajian yang nikmat. Harga relatif terjangkau. Saya suka minuman apple cinnamon-nya.",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
                 "text": "Tampilannya bagus, konsepnya lucu juga.. Tersedia mcm2 makanan, dari nasi, pizza, dessert, roti dll\nPelayanannya ramah, cuman waktu itu choco lava nya 45menit baru keluar..",
                 "suasana": 0,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Tempat yang baru bagus banget, bersih, dan nyaman .tempat nongkrong,tempat favorit, bunbee patisserie rasa Korea Selatan ,enak2 semuanya.Croissant nya jumbo2 enak2 dan roti nya lembutnya halus dan enak2 harga setara bon Ami, ramah ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempat nongkie yang enak, cm kog ada lalat munyer i kita terus hahaha.. kopi ok, roti mantab, pizza enak , caramel machiato smooth rasanya ... parkiran luas ... enak datang waktu jam afternoon tea.. agak senggang... pelayanan ok, cuma ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Pelayanan ramah, rasa makanan / minuman oke, pastry juga enak, suasana tempat tenang cocok buat acara keluarga. Untuk harga emang agak tinggi dibanding cafe lain, tapi masih oke.",
-                "suasana": 1,
                 "harga": 0,
                 "pelayanan": 1,
                 "others": 0
@@ -1165,7 +1165,7 @@
         "name": "Café Anon and Eatery",
         "address": "Jl. Gubeng Kertajaya, Kec. Gubeng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.3,
+        "overallRating": 4.9,
         "suasanaRating": 3.7,
         "hargaRating": 2.6,
         "pelayananRating": 1.3,
@@ -1182,7 +1182,7 @@
         "name": "Café Prajurit",
         "address": "Jl. Prajurit No. 12, Adityawarman, Kec. Sawahan, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.1,
+        "overallRating": 4.5,
         "suasanaRating": 3.5,
         "hargaRating": 2.2,
         "pelayananRating": 1.2,
@@ -1194,6 +1194,20 @@
         "rankOthers": 31,
         "reviews": [
             {
+                "text": "Ini tempat baru di surabaya. Desainnya industrial dan instagramable banget foto. Banyak spot yang bisa dijadiin tempat foto. Bahkan ada photoboxnya juga meski harus bayar dengan harga yg lumayan menurutku. ",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Awesome. Menikmati senja dari atas, romantis. Cafe nya luas, dari lantai 1-5.  Pengunjung disambut oleh staff yang ramah menawarkan untuk menemani mengantar ke tujuan. Yang unik bisa naik lift, atau naik tangga. Tenant makanannya banyak, ",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "makannya enak enak tempatnya nyaman",
                 "suasana": 1,
                 "harga": 0,
@@ -1201,8 +1215,29 @@
                 "others": 0
             },
             {
-                "text": "Awesome. Menikmati senja dari atas, romantis. Cafe nya luas, dari lantai 1-5.  Pengunjung disambut oleh staff yang ramah menawarkan untuk menemani mengantar ke tujuan. Yang unik bisa naik lift, atau naik tangga. Tenant makanannya banyak, ",
+                "text": "Lantai 1 dan 2 food court, lantai 3 dan 4 cafe. Kesana Sabtu malam ada live musiknya, suasana enak buat nongkrong. Harga makanan standart cafe.",
                 "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Lokasi strategis, instagramable, cozy banget sih dari segi tempat dan pelayanan. Cuma dengan harga menu yg lumayan mengalahkan resto menurut saya tidak worth it sama sekali. Terlalu mahal. Tempat pas buat hunting foto dan nongki saja.",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Kopi dan Makanan cukup dapat dinikmati. Harga Spageti 20 ribuan, Espresso 20 ribuan. Rasa Espresso dapat dikatakan enak dengan kualitas Cafe kekinian. Suasana Roof Top, jangan ditanya serasa di Batu Malang. Wajib datang. Bakal jadi salah ",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "-Parkiran luas & mudah untuk parkir\n-Tempat mudah ditemukan\n-Pelayanan ramah ",
+                "suasana": 0,
                 "harga": 0,
                 "pelayanan": 1,
                 "others": 0
@@ -1215,52 +1250,17 @@
                 "others": 0
             },
             {
-                "text": "Menunya beragam. Rasa makanannya juga lumayan oke. Tempat seru buat nongkrong, ada live music. Selalu rame pengunjung",
-                "suasana": 1,
-                "harga": 0,
+                "text": "Kesini siang hari ternyata yg buka cuma lantai 1 dan 2 yg isinya beberapa tenan makanan seperti foodcourt. Untuk cafe di lantai 3 dan 4 baru buka jam 4 sore. Untuk makanan dan minuman harga standar",
+                "suasana": 0,
+                "harga": 1,
                 "pelayanan": 0,
                 "others": 0
             },
             {
-                "text": "cafe yg enak buat kumpul dan nongki plus ada live music jadi selalu rame disini 🥰.. sayangnya pas dateng eh pas hujan, jd ga bisa di atas. Makanan paling enak pas nyoba kemarin itu Mie Ramen Chicken Katsu,, Nasi cumi bakar asin bingit 😫, ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Cafenya nyaman enak tp tukang parkirnya galak, minta ongkos parkir 4000 mtr, mobil 10000, tolong d bantu tindak lanjuti oknum sprti itu",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempat nongkrong yang recomended, konsepnya keren pake kontainer gitu disini ada 4 lantai kalo ga salah. Ada spot foto yang lucu2 makanannya juga enak2 cara pesennya juga lebih modern",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Lokasi strategis, instagramable, cozy banget sih dari segi tempat dan pelayanan. Cuma dengan harga menu yg lumayan mengalahkan resto menurut saya tidak worth it sama sekali. Terlalu mahal. Tempat pas buat hunting foto dan nongki saja.",
+                "text": "Suasana cafe nyaman, menikmati sajian yang rasanya enak enak ditemani live musik. Pelayanan memuaskan, ramah dan tanggap. Cafe ini cocok untuk pasangan, namun bisa juga untuk keluarga. Layak dicoba bagi yang belum pernah singgah",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Tempatnya sih bagus buat spot foto2. Tapi makanannya gak worth sama sekali. Pesan nasi cumi hitam, cuminya cuma ada 3 biji kecil2. Nasinya gaada rasa, hambar. Cordon bluenya lumayanlah, not bad. Es kopinya rasa tora bika ditambah susu :\"",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempat yg estetik n keren buat nongkrong.\nParkiran ckup luas.\nTempatnya jg luas n bertingkat2... ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
                 "others": 0
             }
         ]
@@ -1270,7 +1270,7 @@
         "name": "Carpentier Kitchen",
         "address": "Jl. Untung Suropati No. 83, Dr. Soetomo, Kec. Tegalsari, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.1,
+        "overallRating": 4.6,
         "suasanaRating": 2.6,
         "hargaRating": 1.4,
         "pelayananRating": 2.5,
@@ -1282,6 +1282,20 @@
         "rankOthers": 9,
         "reviews": [
             {
+                "text": "Pertama kalinya kesini setelah sekian lama cuma jadi wishlist. Untung reservasi dulu soalnya makin malem makin rame 😄. Berasa kayak di rumah. Nyaman sekali. Makanannya enak. Porsinya besar. Sesuai harga. Sangat mengenyangkan. Pelayanannya ",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Sudah 10 tahun jadi pelanggan setia di sini, gak pernah bosen dengan menu-menunya, malah terkadang ngangenin, karena 𝙧𝙖𝙨𝙖𝙣𝙮𝙖 𝙢𝙚𝙢𝙖𝙣𝙜 𝙚𝙣𝙖𝙠 dan 𝙠𝙪𝙖𝙡𝙞𝙩𝙖𝙨𝙣𝙮𝙖 𝙜𝙖𝙠 𝙥𝙚𝙧𝙣𝙖𝙝 𝙗𝙚𝙧𝙪𝙗𝙖𝙝. Pelayanannya juga sangat ramah, bahkan mereka ingat dengan nama ",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "The food is very tasty and delicious, with decent portions. There is a lot of variety — Western, Italian, and Indonesian — making it a perfect place for all-day dining. The coffee is also good. Honestly, everything here is good. ",
                 "suasana": 1,
                 "harga": 0,
@@ -1289,7 +1303,14 @@
                 "others": 0
             },
             {
-                "text": "Sudah 10 tahun jadi pelanggan setia di sini, gak pernah bosen dengan menu-menunya, malah terkadang ngangenin, karena 𝙧𝙖𝙨𝙖𝙣𝙮𝙖 𝙢𝙚𝙢𝙖𝙣𝙜 𝙚𝙣𝙖𝙠 dan 𝙠𝙪𝙖𝙡𝙞𝙩𝙖𝙨𝙣𝙮𝙖 𝙜𝙖𝙠 𝙥𝙚𝙧𝙣𝙖𝙝 𝙗𝙚𝙧𝙪𝙗𝙖𝙝. Pelayanannya juga sangat ramah, bahkan mereka ingat dengan nama ",
+                "text": "Awal tau restoran ini dari teman warga asli Surabaya. Selalu menyempatkan kesini tiap kali ke Surabaya. Tempatnya cozy, enak buat hang out, makanannya enak dan worth the price. Jangan lupa pesan pancake nutella nya as dessert karena itu yang selalu bikin aku kembali kesini.",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Pelayanannya selalu oke, tapi waktu itu aku di-handle sama salah satu mas server (fotonya aku lampirin). Jujur aku lupa nanya namanya padahal udah sering banget dibantuin setiap kali ke sini hehe ",
                 "suasana": 0,
                 "harga": 0,
                 "pelayanan": 1,
@@ -1303,7 +1324,14 @@
                 "others": 0
             },
             {
-                "text": "Pelayanannya selalu oke, tapi waktu itu aku di-handle sama salah satu mas server (fotonya aku lampirin). Jujur aku lupa nanya namanya padahal udah sering banget dibantuin setiap kali ke sini hehe ",
+                "text": "Kesini buat makan siang bareng temen, selain makanan ada juga jualan baju, sepatu dan merchandise lainya. Vibesnya enak banget buat nongkrong, adem dan estrtik. Aku pesen avocado burger nya dan menurutku worth it dan sesuai dengan harganya. ",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Makanannya enak, tempatnya cozy, waitressnya ramah banget. Akan balik kesini for sure❤️",
                 "suasana": 0,
                 "harga": 0,
                 "pelayanan": 1,
@@ -1317,37 +1345,9 @@
                 "others": 0
             },
             {
-                "text": "tomyum super seger, asem, tapi ga pedes sayangnya. untuk pelayanannya the best bangett. dipertahankan ya kak dalam memperhatikan customernya. tempatnya ademm, ga berisik, banyak spot foto cantik and aesthetic. cuma agak pricey dan tukang parkirnya yg tidak helpful sama sekali.",
+                "text": "Tempatnya nyaman, pelayanan dan serving order nya cepat, ada smoking and non smoking area. Untuk rasa enak, untuk harga sesuai dengan rasanya. Porsi nya agak besar jadi worth it. Parkir mobil dan motor tersedia. ",
                 "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "It is always a 'YES' to visit here, this was my third times going back here. I found the interior itself quite interesting, cozy yet so artsy. The ambience and vibe are so chill and homey. The quality of the foods and beverages is very ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "ga tau udah berapa kali kesini, service ramah banget, ambiencenya homey, adem, banyak buku, tenang, sejuk, kaya dirumah sendiri, meskipun ada beberapa dish yg nunggunya lama but that’s ok, sepadan sama rasanya,  pas bulan ramadhan selalu ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Carpentier Kitchen Sby vibes-nya bener² kalcer abis ✨\n\ntempatnya estetik, cozy, dan ada feel industrial vintage yang bikin betah ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Makanannya enak, tempatnya cozy, waitressnya ramah banget. Akan balik kesini for sure❤️",
-                "suasana": 0,
-                "harga": 0,
+                "harga": 1,
                 "pelayanan": 1,
                 "others": 0
             }
@@ -1358,7 +1358,7 @@
         "name": "Coffe Breng and Lounge",
         "address": "Jl. Tunjungan No. 55, Genteng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.1,
+        "overallRating": 4.5,
         "suasanaRating": 1.3,
         "hargaRating": 4.2,
         "pelayananRating": 1.2,
@@ -1369,6 +1369,13 @@
         "rankPelayanan": 73,
         "rankOthers": 32,
         "reviews": [
+            {
+                "text": "Ada menu Makanannya enak dan murah..",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
             {
                 "text": "Pelayanan ramah harga kopi dan jajanan sangat terjangkau isi kantong rasa kopinya mantaapp",
                 "suasana": 0,
@@ -1384,6 +1391,13 @@
                 "others": 0
             },
             {
+                "text": "Pelayanan memuaskan",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "Tempat nyaman beta buat nongkrong...",
                 "suasana": 1,
                 "harga": 0,
@@ -1391,10 +1405,10 @@
                 "others": 0
             },
             {
-                "text": "Ada menu Makanannya enak dan murah..",
+                "text": "Penjual unik dan ramah",
                 "suasana": 0,
-                "harga": 1,
-                "pelayanan": 0,
+                "harga": 0,
+                "pelayanan": 1,
                 "others": 0
             },
             {
@@ -1405,6 +1419,13 @@
                 "others": 0
             },
             {
+                "text": "Pelayanannya 👍🏻👍🏻👍🏻 ",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "Enak buat nongkrong sama teman2",
                 "suasana": 1,
                 "harga": 0,
@@ -1412,28 +1433,7 @@
                 "others": 0
             },
             {
-                "text": "Pelayanan memuaskan",
-                "suasana": 0,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
                 "text": "Nyaman n penuh sensasi",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Lumayan kalau buat santai",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Cantik, bersih, cocok",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
@@ -1472,44 +1472,9 @@
                 "others": 0
             },
             {
-                "text": "Suasana nyaman, cukup luas cocok buat kumpul santai keluarga atau bareng kolega. Tersedia baby chair juga ",
+                "text": "Coffe ini cozy banget, dibuat nifas pun masih cozy, suasananya nyaman, tenang. Fasilitas juga nyaman. Kamar mandi bersih dan harum, makanan??? Enaaak, minuman??? Enaaak juga. Masalah harga? Harga menentukan kualitas lah ya... Tapi ga mahal mahal amat kok. Standard lah dibanding Starbucks dan kafe kafe hits lainnya",
                 "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempat nongkrong yang nyaman di tengah kota Surabaya, berlokasi di area bangunan lawas dengan desain interior yang dibikin moderen dan nyaman. ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Sebenarnya suasana cafe nya nyaman banget, yang outdoor juga asik kalau pas malam. Cuma waktu itu banyak menu yang kosong, padahal saat pesan bilangnya ready. Akhirnya cuma beli minum aja",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempat yang asik buat ngobrol, ngerjain tugas, makan makan sama keluarga. Vibenya nyaman dan tentram.",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Kopinya enak. Tempatnya nyaman.",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempat nongkrong di tengah kota, lokasi dulunya kantor pos sebelah taman apsari. Suasan nyaman banget buat ngobrol, interior desain juga bagus.",
-                "suasana": 1,
-                "harga": 0,
+                "harga": 1,
                 "pelayanan": 0,
                 "others": 0
             },
@@ -1521,10 +1486,45 @@
                 "others": 0
             },
             {
-                "text": "Tempat dan suasananya cozy, cocok buat nugas, kerja, atau buat nyantai pun oke banget, banyak spot instagramable yang menarik juga. Nyobain minuman coffee dan non coffee disini enak semua, ga too much",
+                "text": "Suasana nyaman, cukup luas cocok buat kumpul santai keluarga atau bareng kolega. Tersedia baby chair juga ",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Ngopi bareng temen sudah pasti oke di sini, tempatnya asik, santai ,juga keren buat Poto Poto, kopi rasanya mantab, Snack juga mantab, harga mantab, bisa sampai jam 12 malam, yang pasti harus kesini buat yang suka nongkrong sama ngafe,, usul d tambahin live music biar semakin oke suasananya",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Love this place a lot, staff ramah bgt, hafal pesenanku karena keseringan kesini hehehe..\nMba kasir informatif... enak makanan dan kopinya.. kalo mau steak juga tempatnya barengan sama holycow, perfecto!",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Tempat nongkrong yang nyaman di tengah kota Surabaya, berlokasi di area bangunan lawas dengan desain interior yang dibikin moderen dan nyaman. ",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Harga standard kafe & mall\nRasa makanan lumayan\nMinuman sdh oke ",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "1. Tempat cukup nyaman\n2. Pelayanan nya juga ramah\n3. Fasilitas ada WiFi dan toilet ",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 1,
                 "others": 0
             }
         ]
@@ -1534,7 +1534,7 @@
         "name": "De Maindiling Café Kertajaya",
         "address": "Jl. Kertajaya Indah No. 75, Manyar Sabrangan, Kec. Mulyorejo, Surabaya Timur",
         "imageUrl": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.3,
+        "overallRating": 4.5,
         "suasanaRating": 3.4,
         "hargaRating": 2.6,
         "pelayananRating": 1.8,
@@ -1545,13 +1545,6 @@
         "rankPelayanan": 52,
         "rankOthers": 17,
         "reviews": [
-            {
-                "text": "Tempat nyaman buat nongkrong, meet up sama temen. Makanannya enak2. Paling suka mille crepes nya.",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
             {
                 "text": "Makanannya enak banget dan worth it sama harganya, porsinya besar & nunggunya gak lama",
                 "suasana": 0,
@@ -1567,14 +1560,7 @@
                 "others": 0
             },
             {
-                "text": "The food is great, tasty and savoury. The beverages is fine, but could be better, i guess. The place is cozy for hang out but a little bit hot evenhough the air cons are on, maybe because some of the air cons are blocked by the artificial plants that are placed surround the room. This place is clean and neat as well..",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Makanan enak. Ruangan terbatas, hanya satu lantai. Ada indoor dan outdoor. Bisa request bawain kue ulang taun pacar disini. Nanti dinyanyiin sama mbak\" dan mas\"nya (ini bukan pengalaman pribadiku, tapi kebetulan ada yang gitu waktu itu hehehe) Kalau sepi enak buat nugas.",
+                "text": "Tempat nyaman buat nongkrong, meet up sama temen. Makanannya enak2. Paling suka mille crepes nya.",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
@@ -1588,7 +1574,14 @@
                 "others": 0
             },
             {
-                "text": "Minuman pesen yoghurt dan kopi enak semua, waffle udah best yaa pastinya tinggal ganti” rasa tp yg rasanya paling medok ya yg waffle coklat milo ini, tempatnya oke indoor ada di depan sm paling belakang, yg kertajaya ni di ruko” gitu yaa",
+                "text": "Untuk tempat dan suasana oke. Pelayanan juga baik. Ricebowl cukup ekonomis dan mengenyangkan. Karaagenya crispy dan sausnya cukup mengkomplemen each other. Mille crepes was really good. Crepesnya lembut, whipped creamnya juga seimbang ",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "The food is great, tasty and savoury. The beverages is fine, but could be better, i guess. The place is cozy for hang out but a little bit hot evenhough the air cons are on, maybe because some of the air cons are blocked by the artificial plants that are placed surround the room. This place is clean and neat as well..",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
@@ -1602,7 +1595,14 @@
                 "others": 0
             },
             {
-                "text": "Menu bervariasi, tempat nyaman",
+                "text": "Tempatnya gede, nyaman dan banyak spot untuk selfie. Makanan enak, harga terjangkau, ada akses wifi. Pelayanan cukup cepat dan ramah, tempat parkir kurang gede, kalo lagi rame susah nyari tempat parkir apalagi buat mobil, klo pake motor ",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Makanan enak. Ruangan terbatas, hanya satu lantai. Ada indoor dan outdoor. Bisa request bawain kue ulang taun pacar disini. Nanti dinyanyiin sama mbak\" dan mas\"nya (ini bukan pengalaman pribadiku, tapi kebetulan ada yang gitu waktu itu hehehe) Kalau sepi enak buat nugas.",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
@@ -1622,7 +1622,7 @@
         "name": "Deckside Lounge Café",
         "address": "Jl. Manyar Kertoarjo No. 22, Manyar Sabrangan, Kec. Mulyorejo, Surabaya Timur",
         "imageUrl": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 2.9,
+        "overallRating": 4.5,
         "suasanaRating": 3.2,
         "hargaRating": 1.4,
         "pelayananRating": 1.3,
@@ -1634,20 +1634,6 @@
         "rankOthers": 33,
         "reviews": [
             {
-                "text": "Pemandangan kota dan kolam renang. Bagus kalau sore, instagramable banget. Harga diatas rata-rata cafe. Saat pandemi seperti ini jam operasional hingga 22.00.",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempat untuk kumpul kumpul dan santai terbaru, super asik apalagi sore ke malam di poolside nya konsep super keren",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
                 "text": "Bagus , minumanya murah , cuman agak sepi aja",
                 "suasana": 0,
                 "harga": 1,
@@ -1655,7 +1641,14 @@
                 "others": 0
             },
             {
-                "text": "Deckside lounge and cafe is a very good place, in addition to a very strategic location in the eastern city of Surabaya, also the place (indoor and outdoor - pool side) is very pleasant, with an interesting view of the city of Surabaya. ",
+                "text": "Tempat nya nyaman . pelayanan bagus..\nSesuai lah dgn nominal yg hrs dikeluarkan...heheheh",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Pemandangan kota dan kolam renang. Bagus kalau sore, instagramable banget. Harga diatas rata-rata cafe. Saat pandemi seperti ini jam operasional hingga 22.00.",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
@@ -1669,27 +1662,6 @@
                 "others": 0
             },
             {
-                "text": "Utk makanan dan viewnya ok juga sih. Suasana hari biasa gak seberapa ramai jd cocok buat foto2",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Resto dengan sajian pemandangan yang berasa kayak diluar negri. Patut dicoba! Apalagi setelah makan, pergi ke bagian belakang kolam renang. Mantap👌 ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempat nya nyaman . pelayanan bagus..\nSesuai lah dgn nominal yg hrs dikeluarkan...heheheh",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
                 "text": "Cafe tempat nongkong yg enk bngt dengan pelayanan yang ramah ....... Makanan bintang 5 harga ramah dikantong lagi",
                 "suasana": 0,
                 "harga": 1,
@@ -1697,7 +1669,35 @@
                 "others": 0
             },
             {
-                "text": "Lokasi yg keren buat kumpul bersantai dengan teman dan keluarga",
+                "text": "Tempat untuk kumpul kumpul dan santai terbaru, super asik apalagi sore ke malam di poolside nya konsep super keren",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Tempat nya nyaman,\nPelayanan ramah.\nCukup banyak pilihan makan minum.",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Deckside lounge and cafe is a very good place, in addition to a very strategic location in the eastern city of Surabaya, also the place (indoor and outdoor - pool side) is very pleasant, with an interesting view of the city of Surabaya. ",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Tempatnya bagus, pelayanan nya juga bagus",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Utk makanan dan viewnya ok juga sih. Suasana hari biasa gak seberapa ramai jd cocok buat foto2",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
@@ -1710,7 +1710,7 @@
         "name": "Dejavu",
         "address": "Jl. Ngagel Jaya Selatan No. 33, Pucang Sewu, Kec. Gubeng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.1,
+        "overallRating": 4.4,
         "suasanaRating": 2.7,
         "hargaRating": 2.0,
         "pelayananRating": 2.0,
@@ -1722,51 +1722,23 @@
         "rankOthers": 7,
         "reviews": [
             {
-                "text": "Baru perdana kongko-kongko di cafe Deja-vu bareng teman².\n\nSuasanan its okey, makanannya cukup enak, tempatnya cozy enak dipake ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Salah satu tempat cozy di Surabaya, tempatnya sederhana tapi nyaman untuk nongrong. Banyak kursi, dan toilet yang bersih. Makanannya semuanya enak dan cepat sampai",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Cool place great music, shisha was nice, just cool chill vibes and to hang out",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "nyaman dan jika suka sepak bola ada nobar² contoh timnas, Liga 1, primer league, champion (Liverpool). untuk antrian nya standar kalao weekday dan untuk wekeend atau lagi ada nobar mengantriiiiiiii jadi alangkah baiknya datang lebih awal ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Dulu pas kuliah ngerjain disini sambil skripsian, dan ok buat ngerjain sm temen2 pas banyak orang. Tempatnya juga 24 jam. Di lantai 2 smoking friendly, jadi buat temen2 yg gabisa kena asap rokok pakai masker yaa. ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Makanannya cukup enak, tempatnya cozy enak dipake nongkrong/kerja\n\nMenu canai coklatnya oke. Buat yang suka coklat, ini full coklat. Pake mesis & ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
                 "text": "💝 Suka deh tempatnya cozy gitu buat nongkrong, cafe yg makanannya rasanya enak dan harga ga begitu mahal\n🍽 Varian menu disini sangat banyak, baik minuman, makanan, maupun snack ",
                 "suasana": 1,
                 "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Makanannya enak-enak, minumanya mantap, harga terjangkau, banyak stop kontak, cocok buat nongkrong, atau mengerjakan tugas, rekom banget kesini, semuanya enak. Pelayanan cepat, makanan juga enak. Untuk harga relatif terjangkau. Tempatnya strategis dan ramai.",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Baru perdana kongko-kongko di cafe Deja-vu bareng teman².\n\nSuasanan its okey, makanannya cukup enak, tempatnya cozy enak dipake ",
+                "suasana": 1,
+                "harga": 0,
                 "pelayanan": 0,
                 "others": 0
             },
@@ -1778,16 +1750,44 @@
                 "others": 0
             },
             {
-                "text": "Cocok bet buat anak muda atau orang tua yg masih berjiwa muda dan suka hura - hura. Knp hura2 ? Karena tempatnya terkesan begitu hehe. Suasana remang2 dengan musik yg keras. Pas buat nongkrong, kongkow, rame2an bareng temen. Tapi gak cocok ",
+                "text": "Harga menu murah pelayanan cepat",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Salah satu tempat cozy di Surabaya, tempatnya sederhana tapi nyaman untuk nongrong. Banyak kursi, dan toilet yang bersih. Makanannya semuanya enak dan cepat sampai",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
                 "others": 0
             },
             {
-                "text": "Simply the best nyangkruk (hangout) place in Surabaya. Affordable foods and drinks. Recommended buat kalian yang pengen ngobrol santai sambil cemal cemil enak. ",
+                "text": "Tempatnya enak harganya ngga pricey. Banyak yg murah bahkan ga sampe 50rb bisa dpt 2 minum sama 1 snack. Cuman mungkin bisa minta tolong bagian luar dikasih kipas angin karena panas banget. Tau kan kenapa luar mesti sepi? Karna panas ",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "A good place to watch football games together. Pretty friendly staff. Cheap price, they serve beers, toast, pasta, and rice bowl. However, when I ordered chicken black pepper rice bowl the rice was so hard and stiff. It was hard to bite on ",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Cool place great music, shisha was nice, just cool chill vibes and to hang out",
                 "suasana": 1,
                 "harga": 0,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Enak sih tempatnya buat nongkrong, cuman makanan dan minuman kurang beraneka ragam yaa, tempatnya juga cozy, tempat strategis di pinggir jalan dekat Marvel City, harga masih standar laa ya, cuman snack nya agak keasinan",
+                "suasana": 0,
+                "harga": 1,
                 "pelayanan": 0,
                 "others": 0
             }
@@ -1798,7 +1798,7 @@
         "name": "Djournal Coffee",
         "address": "Jl. Tunjungan No. 17, Genteng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.8,
         "suasanaRating": 1.7,
         "hargaRating": 1.7,
         "pelayananRating": 3.3,
@@ -1815,7 +1815,7 @@
         "name": "Dukee Café and Eatery",
         "address": "Jl. Dukuh Kupang Barat No. 25, Dukuh Pakis, Surabaya Barat",
         "imageUrl": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.9,
         "suasanaRating": 1.2,
         "hargaRating": 4.6,
         "pelayananRating": 1.2,
@@ -1834,6 +1834,13 @@
                 "others": 0
             },
             {
+                "text": "Enak buat nongkrong sama temen-temen, makanan dan minumannya enak semua. Apalagi mangut ikan asapnya enaaaakk banget ngabisin nasi pokoknya. Penjualnya baik dan ramah banget. Semoga tambah laris manis.",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "Makanan tradisional diselingi dg makanan kekinian,,ada ceker hot,rawon,gule,burger,kebab n minuman boba..harga terjangkau bgt😘😘\nTempatnya juga nyaman bgt😉recommended ya... ",
                 "suasana": 1,
                 "harga": 1,
@@ -1841,8 +1848,29 @@
                 "others": 0
             },
             {
+                "text": "Menu makanan dan minumannya lumayan banyak, pelayanan ramah👌👌👌 ",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "Pilihan Menu Makanan yg sangat beragam, harga murah gk bikin kantong bolong jg.... Yukz guys datang ke Dukee Cafe and Eatery",
                 "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Tempat nyaman pelayanan ramah harga terjangkau makanan minumannya enak",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Tempat nyaman,makanan enak semua\nYg sukak pedes bs cb ceker pedes nya\nBisa buat nongkrong atau acara bukber,yg jomblo jg bs banget.... ",
+                "suasana": 1,
                 "harga": 1,
                 "pelayanan": 0,
                 "others": 0
@@ -1855,20 +1883,6 @@
                 "others": 0
             },
             {
-                "text": "Tempat nyaman,makanan enak semua\nYg sukak pedes bs cb ceker pedes nya\nBisa buat nongkrong atau acara bukber,yg jomblo jg bs banget.... ",
-                "suasana": 1,
-                "harga": 1,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Enak buat nongkrong sama temen-temen, makanan dan minumannya enak semua. Apalagi mangut ikan asapnya enaaaakk banget ngabisin nasi pokoknya. Penjualnya baik dan ramah banget. Semoga tambah laris manis.",
-                "suasana": 0,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
                 "text": "Variasi makanannya banyak. Enak2. Yg favorit mangut ikan asap dan cekernya. Untuk cemilannya kebabnya enak jg. Mayo dan saosnya banyak. suasana jg nyaman. 👍👍👍 ",
                 "suasana": 1,
                 "harga": 0,
@@ -1876,22 +1890,8 @@
                 "others": 0
             },
             {
-                "text": "Menu makanan dan minumannya lumayan banyak, pelayanan ramah👌👌👌 ",
-                "suasana": 0,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Tempat nyaman pelayanan ramah harga terjangkau makanan minumannya enak",
-                "suasana": 0,
-                "harga": 1,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Tempat Hangouts... Harga murah  👍👍👍 ",
-                "suasana": 0,
+                "text": "suasana tempat nyaman harga murah ramah di kantong",
+                "suasana": 1,
                 "harga": 1,
                 "pelayanan": 0,
                 "others": 0
@@ -1903,7 +1903,7 @@
         "name": "Eicy Café",
         "address": "Jl. Dharmahusada No. 122, Mojo, Kec. Gubeng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1521017432531-fbd92028d8ed?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.7,
         "suasanaRating": 3.1,
         "hargaRating": 1.7,
         "pelayananRating": 1.9,
@@ -1915,13 +1915,6 @@
         "rankOthers": 12,
         "reviews": [
             {
-                "text": "Minggu lalu pas kami merayakan acara natal rame² pesan menu harga paketan, saya pilih dory rice bowl, Lauknya sedikit dibandingkan nasinya 😃. Untuk pelayanan dan suasananya sih oke & nyaman banget. ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
                 "text": "Cafenya sangat nyaman dan juga sepi, nggak ada tukang parkir. Kalau ngerokok bisa tapi outdoor. Kids friendly banyak card gamesnya. Harga minumannya juga masih affordable banget buat yang lagi hemat tapi mau nongki. Big meal start from 35k, ",
                 "suasana": 1,
                 "harga": 1,
@@ -1929,10 +1922,10 @@
                 "others": 0
             },
             {
-                "text": "Cafe mungil terletak di daerah Manyar Jaya, berjualan pastry, western & indonesia food, coffee dan non coffee.\nSuasana di dalam cafe nyaman dan bisa pinjam mainan seperti Uno, kartu, board ",
+                "text": "Minggu lalu pas kami merayakan acara natal rame² pesan menu harga paketan, saya pilih dory rice bowl, Lauknya sedikit dibandingkan nasinya 😃. Untuk pelayanan dan suasananya sih oke & nyaman banget. ",
                 "suasana": 1,
                 "harga": 0,
-                "pelayanan": 0,
+                "pelayanan": 1,
                 "others": 0
             },
             {
@@ -1957,7 +1950,14 @@
                 "others": 0
             },
             {
-                "text": "hidden cafe yang lucuuu 😻🥨📚🎲 tempatnya jauh dari keramaian jadi cocok buat yang bosen di tengah kota, sangat homey dan instagrammable ★_★! kafe ini juga nyediain beraneka macam permainan dan buku yang bisa dipinjam 💯 oh iyaa, mereka juga jualan roti dan merch gitu LUCUU! ",
+                "text": "Kafe bertema korea yang nyaman abiss 😊 toilet bersih, lahan parkir luas & tentunya gratis. The food? Absolutely delicious 👍🏻 pelayanan dari para staffnya juga ok banget. ",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Cafe mungil terletak di daerah Manyar Jaya, berjualan pastry, western & indonesia food, coffee dan non coffee.\nSuasana di dalam cafe nyaman dan bisa pinjam mainan seperti Uno, kartu, board ",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
@@ -1971,16 +1971,16 @@
                 "others": 0
             },
             {
-                "text": "Makanannya enak banget, banyak mainan jad gabosen, suasana tenang dan ada spot foto yang bisa dibuat story Instagram cuman minusnya harus pakai uang pas kalau gada pakai qris",
+                "text": "Suasana nyaman, tempat lucu, pelayanannya ramah baik, harga murah",
                 "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
+                "harga": 1,
+                "pelayanan": 1,
                 "others": 0
             },
             {
-                "text": "Tempat nyaa lucu bgtt, aesthetic bgt, banyak spot foto, makanan nya juga enak (ada harga ada rasa) bisa pinjam buku, ada game activity nyaa juga, mereka juga jualan merchandise baju dan tas lucu bgtt lo 😍 ",
-                "suasana": 1,
-                "harga": 0,
+                "text": "Taste food nyaaa enaakk banget dengan harga segitu worth it sihhh 👍tempatnya jg enak 😍\nCafe latte n rainbow green tea terfavorit aku. ",
+                "suasana": 0,
+                "harga": 1,
                 "pelayanan": 0,
                 "others": 0
             }
@@ -1991,7 +1991,7 @@
         "name": "Feel Matcha Tunjungan",
         "address": "Jl. Tunjungan No. 88, Genteng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.3,
+        "overallRating": 4.9,
         "suasanaRating": 1.2,
         "hargaRating": 1.4,
         "pelayananRating": 4.5,
@@ -2008,7 +2008,7 @@
         "name": "Fifteenth Café",
         "address": "Jl. Raya Kupang Indah No. 15, Dukuh Kupang, Kec. Dukuhpakis, Surabaya Barat",
         "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.3,
+        "overallRating": 4.9,
         "suasanaRating": 4.0,
         "hargaRating": 1.3,
         "pelayananRating": 2.0,
@@ -2020,6 +2020,13 @@
         "rankOthers": 37,
         "reviews": [
             {
+                "text": "Layanan mrk ramah dr pramusaji dan kasirnya. Makanan rasanya enak, porsi standart dg harga resto. Minuman kopi terlalu banyak air / ice sehingga hambar / rasa kopinya kurang kerasa.",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "Fifteen yang punya suasana yang cocok untuk WFC dengan desain yang estetik. Minuman enak, makanannya fresh, dan cocok banget buat nongkrong atau kerja santai.",
                 "suasana": 1,
                 "harga": 0,
@@ -2027,38 +2034,10 @@
                 "others": 0
             },
             {
-                "text": "nyaman banget tempatnyaa, acnya jg dingin, minuman makanannya jugaa enak, cocok banget buat nugas, ngumpul ramean sama temennn.",
+                "text": "Nice place, and cozy. Cocok buat wfc karna ada stop kontak di setiap spot tempat duduk, harga juga masih masuk akal 25 - 50k. Standar surabaya lah",
                 "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "suka banget sama ambience nya\n\ncuma sayang di magic nya kata pacar saya rasanya kurang, yang lainnya enak terutama caramel toast nya <3!",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempatnya cozzyy abiessstt di outdoor maupun indooor cuman ya gitu mungil space. Untuk makanan nya kebetulan pesan pizza mantap si (4/5) banyakin toping coba xixi biar lega😁😁😁 ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Suasananya comfy buat kerja. Saya cobain Fizzpresso Lemonade, enak.\n\nMungkin AC-nya bisa dibuat lebih dingin aja. Sama kalo bisa tolong yg vaping di ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Layanan mrk ramah dr pramusaji dan kasirnya. Makanan rasanya enak, porsi standart dg harga resto. Minuman kopi terlalu banyak air / ice sehingga hambar / rasa kopinya kurang kerasa.",
-                "suasana": 0,
                 "harga": 1,
-                "pelayanan": 1,
+                "pelayanan": 0,
                 "others": 0
             },
             {
@@ -2069,24 +2048,45 @@
                 "others": 0
             },
             {
-                "text": "Tempatnya lucu dan unik, biasanya coffee shop interiornya mewah, instagramable, dan terkesan modern luxury. Kalau di fifteenth lebih mengusung konsep jaman jadul, mulai dr mebel yang digunakan, warna nya, kusen pintu, dsb ",
+                "text": "nyaman banget tempatnyaa, acnya jg dingin, minuman makanannya jugaa enak, cocok banget buat nugas, ngumpul ramean sama temennn.",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
                 "others": 0
             },
             {
-                "text": "kedua kalinya kesini, nyaman banget tempatnya, minumannya oke, tempatnya oke, kamar mandinya pun juga oke ⭐",
+                "text": "Mampir ke Fifteenth Cafe by Mark Design dan overall pengalamannya enak.\nMakanannya sesuai ekspektasi, rasanya pas, dan menurut gue worth it dengan harganya. ",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Service is excellent, great cafe with exceptional design. It has indoor air-conditioned room and outdoor area. Menu has wide variety of choices between coffee and non-coffee drinks.",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "suka banget sama ambience nya\n\ncuma sayang di magic nya kata pacar saya rasanya kurang, yang lainnya enak terutama caramel toast nya <3!",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
                 "others": 0
             },
             {
-                "text": "nyaman bgt tempatnya, ini mumpung lg sepi bisa foto”🥰 ",
+                "text": "Tempatnya nyaman buat nongkrong, karena kesana pas weekday jadi ga terlalu rame. Makanannya enak apalagi croissantnya the best sih. Varian minumannya juga banyak. Ada barnya juga yg jual bir. Harga terjangkau sih. Hari tertentu biasanya ada promo2. Ada toilet bersih. Parkirnya kalo buat mobil ga terlalu banyak.",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "tempat nya enak banget, ademm. terus menu nya enak-enak jugaa. what i love so much about this place tuh tempatnya enak banget buat nongkrong, buat nugas juga okee banget. pelayanan nya juga WOWWW BANGETTT! friendly banget, helpful jugaa. overall a solid 10/10😍 ",
                 "suasana": 1,
                 "harga": 0,
-                "pelayanan": 0,
+                "pelayanan": 1,
                 "others": 0
             }
         ]
@@ -2096,7 +2096,7 @@
         "name": "Fore Coffee Gwalk",
         "address": "G-Walk, Jl. Niaga Gapura, Sambikerep, Surabaya Barat",
         "imageUrl": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.5,
         "suasanaRating": 2.5,
         "hargaRating": 1.4,
         "pelayananRating": 3.6,
@@ -2113,7 +2113,7 @@
         "name": "Fork Surabaya",
         "address": "Jl. Tegalsari No. 12, Kedungdoro, Kec. Tegalsari, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.6,
         "suasanaRating": 2.8,
         "hargaRating": 1.4,
         "pelayananRating": 3.2,
@@ -2132,6 +2132,13 @@
                 "others": 0
             },
             {
+                "text": "Cuma disini rela antri karena all of the menu selalu fresh, selalu enak, servicenya super fast, always clean. Super recommended untuk yang suka pastry, daging, etc. Wajib banget dicoba dan repeat 😌👑 ",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "Steak, Brisket, dan Burger nya so good, one of the best meat yang pernah ku makan 😂.\nTempat nya industrial theme dan sangat Cozy. ",
                 "suasana": 1,
                 "harga": 0,
@@ -2146,34 +2153,6 @@
                 "others": 0
             },
             {
-                "text": "Sayang sekali lamb steak dan lamb sataynya habis.\nAkhirnya pesen set smoked menu, enak juga 🤤🤤.\nVibesnya ok, ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Salah satu tempat makan di Jl. Tunjungan. Kesini karena rekomendasi teman. Tempatnya seperti bangunan lama yang memang dibiarkan seperti pekerjaan tang belum selesai, cukup estetik. Tempatnya nyaman dan tenang, ada 2 lantai. Menunya ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Cuma disini rela antri karena all of the menu selalu fresh, selalu enak, servicenya super fast, always clean. Super recommended untuk yang suka pastry, daging, etc. Wajib banget dicoba dan repeat 😌👑 ",
-                "suasana": 0,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Makanannya enak2 terutama pizza dan basmati rice. Tapi kalau bawa keluarga anak2 kecil gt mungkin kurang cocok ya krn suasananya agak gloomy, tembok2nya sengaja bertema puing2 gt, toilet dll catnya item gelapppp jadi mgkn cocok untuk nongki ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
                 "text": "Suasananya asik, seperti di masa lalu. Pelayanannya memuaskan. Makanannya berkualitas dengan porsi yg cukup besar.\nPerlu ditingkatkan ketersediaan menu nya, karena hari ini menu cukup terbatas.",
                 "suasana": 1,
                 "harga": 0,
@@ -2181,9 +2160,30 @@
                 "others": 0
             },
             {
+                "text": "Tempat cozy dan estetik. Makanan enak-enak. Harga sesuai dengan porsinya, tidak terlalu mahal. Pelayanan ramah dan cepat. Sangat cocok untuk nge-date. Kurang cocok untuk bawa anak kecil.",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "makanan enak banget. ambiencenya jg menyenangkan. pelayannya juga pada ramah banget🩵 ",
                 "suasana": 0,
                 "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Sayang sekali lamb steak dan lamb sataynya habis.\nAkhirnya pesen set smoked menu, enak juga 🤤🤤.\nVibesnya ok, ",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Lokasinya strategis dijalan tunjungan. Banyak pilihan menu. Harganya affordable banget. Makanannya enak. Kids friendly buat anak”. Pelayanannya oke",
+                "suasana": 0,
+                "harga": 1,
                 "pelayanan": 1,
                 "others": 0
             },
@@ -2201,7 +2201,7 @@
         "name": "Gatherinc",
         "address": "Jl. Citraland No. 44, Sambikerep, Surabaya Barat",
         "imageUrl": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.5,
         "suasanaRating": 3.9,
         "hargaRating": 2.1,
         "pelayananRating": 2.0,
@@ -2213,10 +2213,24 @@
         "rankOthers": 40,
         "reviews": [
             {
+                "text": "Tempat nya nyaman\nPelayanan juga ramah dan cepat\nPorsi makan besar, sesuai harga.\nRasa juga enak",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "Smoothiesnya juara, Vibesnya tenang dan asri, pelayanan sangat baik.",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Nyaman. Harga bersahabat standart cafe anak muda 😆 ",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
                 "others": 0
             },
             {
@@ -2234,14 +2248,14 @@
                 "others": 0
             },
             {
-                "text": "Untuk rasa makanannya enak. Cuma bakmi nya agak keasinan. Selain itu enak. Pelayanan ramah dan cepat. Suasana tempatnya homey, nyaman untuk kerja.",
-                "suasana": 0,
-                "harga": 0,
-                "pelayanan": 1,
+                "text": "Tempat yg nyaman utk makan, hang out, dan juga tersedia spot yg instagramable.\nMakanan enak, harga terjangkau\nMulai dari appetizer, main course sampai makanan pencuci mulut, semua ok",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
                 "others": 0
             },
             {
-                "text": "pertama kali makan disini, pelayananan, pegawai ramah, cepat",
+                "text": "Untuk rasa makanannya enak. Cuma bakmi nya agak keasinan. Selain itu enak. Pelayanan ramah dan cepat. Suasana tempatnya homey, nyaman untuk kerja.",
                 "suasana": 0,
                 "harga": 0,
                 "pelayanan": 1,
@@ -2255,31 +2269,17 @@
                 "others": 0
             },
             {
-                "text": "Ruangan cukup nyaman dan luas, cozy, cocok buat hang out, buka jam 11an smpe 10mlm. Disini disediain pasta, burger, salad, sandwich, laksa, nasgor dll. Nyediain juga homemade cake dan cookies. Beveragenya cukup ok, coffee, tea.",
-                "suasana": 1,
-                "harga": 0,
+                "text": "Makanan & minuman / dessertnya rata\" enak ..\nHarga sesuai dg Makanan & minuman / dessertnya",
+                "suasana": 0,
+                "harga": 1,
                 "pelayanan": 0,
                 "others": 0
             },
             {
-                "text": "Tempat yang nyaman untuk melakukan segala kegiatan. Meeting,Party, bahkan Co-Working space yang cocok bagi semua orang. ",
-                "suasana": 1,
+                "text": "pertama kali makan disini, pelayananan, pegawai ramah, cepat",
+                "suasana": 0,
                 "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Indonesian:\nTempat yang cozy dan nyaman untuk bersantai atau kumpul kumpul bersama teman-teman. ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Nice place to enjoy some delicious food.\nLokasinya di daerah Surabaya Barat.\nTempatnya cukup luas, asik dan instagramable buat ngumpul sama teman2 ato ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
+                "pelayanan": 1,
                 "others": 0
             }
         ]
@@ -2289,7 +2289,7 @@
         "name": "Gibran's Cafe and Eatery",
         "address": "Jl. Ahmad Yani No. 88, Gayungan, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.1,
+        "overallRating": 4.6,
         "suasanaRating": 1.4,
         "hargaRating": 1.4,
         "pelayananRating": 3.8,
@@ -2308,6 +2308,20 @@
                 "others": 0
             },
             {
+                "text": "Gibran's cafe ini istimewa lho .. jarang d surabaya area rungkut  ad cafe yang nyaman.. dan bersih .. salah satunya  Gibran's cafe ini.. pegawainya baik dan ramah.. kmrin waktu jalan kesana.. kita pesan nasi goreng bakso dan saya pesan kopi ",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Bagus tempat nya classic",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
+            },
+            {
                 "text": "Tempatnya asik, harga bersahabat mantap 👍🏼👍🏼 ",
                 "suasana": 0,
                 "harga": 1,
@@ -2315,7 +2329,7 @@
                 "others": 0
             },
             {
-                "text": "Gibran's cafe ini istimewa lho .. jarang d surabaya area rungkut  ad cafe yang nyaman.. dan bersih .. salah satunya  Gibran's cafe ini.. pegawainya baik dan ramah.. kmrin waktu jalan kesana.. kita pesan nasi goreng bakso dan saya pesan kopi ",
+                "text": "Menyenangkan...tenang...ramah pelayan,x 👍👍👍 ",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 1,
@@ -2329,6 +2343,20 @@
                 "others": 0
             },
             {
+                "text": "Suasana nyaman, harga murah, f&b enak",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Management baru yg ramah",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "Cafenya nyaman suasananya ramai dan buat kumpul dgn teman enjoi, minumanya mantap makanannya top Cafenya 🍵🍺🍜 👍🏼👍🏼👍🏼🙏🙏. ",
                 "suasana": 1,
                 "harga": 0,
@@ -2336,36 +2364,8 @@
                 "others": 0
             },
             {
-                "text": "Tempatnya enak buat nyantai,,,,, bisa buat nyanyi cz ada pengiring musik... Parkiran juga enak tidak mengganggu jalan,,,,pas deh buat nyantai apa lagi sama pasangan 👍🏻👍🏻👍🏻👍🏻👍🏻 ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Menyenangkan...tenang...ramah pelayan,x 👍👍👍 ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Tempatnya nyaman banget buat nongkrong. Minimumnya juga enak, ada live musiknya juga.",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Makanan dan minuman nya enak dgn tempat yg nyaman dan cukup luas",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Suasana nyaman, harga murah, f&b enak",
-                "suasana": 1,
+                "text": "Harga nya lumayan murah hehehe",
+                "suasana": 0,
                 "harga": 1,
                 "pelayanan": 0,
                 "others": 0
@@ -2377,7 +2377,7 @@
         "name": "Greenstones Coffe",
         "address": "Jl. Merr Kalijudan No. 40, Kalijudan, Kec. Mulyorejo, Surabaya Timur",
         "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.5,
         "suasanaRating": 3.4,
         "hargaRating": 1.3,
         "pelayananRating": 2.9,
@@ -2389,17 +2389,10 @@
         "rankOthers": 42,
         "reviews": [
             {
-                "text": "tempat nongki pusat kota yg bisa dicoba si, karna tempatnya nyaman, enak dan luas. banyak spot foto cantik, keknya bisa disewa buat acara keluarga atau lainnya karna outdoornya jg mendukung. paling penting toiletnya bersihh dan wangi (menu scan barcode di meja)",
+                "text": "makanannya enak banget, porsinya banyak, worth the price 💸👌\npelayanannya juga bagus, staffnya ramah² 💛\nsuasananya nyaman bgt ga bising, enak buat ngobrol & wfc. fasilitasnya juga lengkap banget, ada musholla, toilet, outdoor, smoking room, bersih semua lagi ✨ ",
                 "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Waktu kesana sore jam 3 sudah banyak menu yg kosong. Tempatnya bagus dan lengkap fasilitasnya ada musholla. Toilet bersih. Nyaman. Indoor and outdoor area. Ada smooking area dan ruang meeting juga. Ramennya enak banget!",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
+                "harga": 1,
+                "pelayanan": 1,
                 "others": 0
             },
             {
@@ -2410,6 +2403,20 @@
                 "others": 0
             },
             {
+                "text": "tempat nongki pusat kota yg bisa dicoba si, karna tempatnya nyaman, enak dan luas. banyak spot foto cantik, keknya bisa disewa buat acara keluarga atau lainnya karna outdoornya jg mendukung. paling penting toiletnya bersihh dan wangi (menu scan barcode di meja)",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Cafe ternyaman & cozy banget di pusat kota surabaya, harga & rasa makanan sangat worth it! overall menurut ku tempat makan ini patut lu coba!!",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
                 "text": "Tempatnya luas bangett, cukup nyaman. Servicenya baik dan ramah, makanan juga cepet datengnya. ",
                 "suasana": 1,
                 "harga": 0,
@@ -2417,9 +2424,16 @@
                 "others": 0
             },
             {
-                "text": "Tempat nya nyaman, makanan enak2.. khusus nya nasi goreng dan spagetty aglio olio juara. Yg suka minuman rempah2 bisa order bir pletok. ",
+                "text": "Waktu kesana sore jam 3 sudah banyak menu yg kosong. Tempatnya bagus dan lengkap fasilitasnya ada musholla. Toilet bersih. Nyaman. Indoor and outdoor area. Ada smooking area dan ruang meeting juga. Ramennya enak banget!",
                 "suasana": 1,
                 "harga": 0,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Enak sih mkanan n minuman nya,\nTempat nya bersih dan luas..\nHarga nya lumayan lahh",
+                "suasana": 0,
+                "harga": 1,
                 "pelayanan": 0,
                 "others": 0
             },
@@ -2431,30 +2445,16 @@
                 "others": 0
             },
             {
+                "text": "Makanan enak, harga masuk akal, kopi terbaik👍🏻 ",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
                 "text": "Ada indoor, outdoor, dan smoking indoor, tempatnya syahdu sekali yang di outdoor, toiletnya juga bersih, pelayanannya gercep dan ramah, praktis tinggal duduk dimeja, scan barcode, pesen dan bisa bayar di meja pake qris, kopinya enak, makanannya juga enak",
                 "suasana": 1,
                 "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Tempatnya memang bukan di pinggir jalan gede, tapi ini di pusat kota looo..\nPertama kali masuk tempatnya sangat cozy bgt.. Dan luasss\nParkir R2 dan R4 tersedia cukup banyak. Bapak security nya jg gercep dan ramah.. ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Makanannya enak banget, sangat cocok buat nongkrong dan makan disini\nAjak teman keluarga pacar cocok banget\nTempatnya cozzy parah\nPelayanannya ramah dan baik banget.",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "makanannya enak banget, porsinya banyak, worth the price 💸👌\npelayanannya juga bagus, staffnya ramah² 💛\nsuasananya nyaman bgt ga bising, enak buat ngobrol & wfc. fasilitasnya juga lengkap banget, ada musholla, toilet, outdoor, smoking room, bersih semua lagi ✨ ",
-                "suasana": 1,
-                "harga": 1,
                 "pelayanan": 1,
                 "others": 0
             }
@@ -2465,7 +2465,7 @@
         "name": "Griffon Café and Lounge",
         "address": "Jl. Raya Darmo No. 45, Darmo, Kec. Wonokromo, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 2.9,
+        "overallRating": 4.0,
         "suasanaRating": 2.3,
         "hargaRating": 2.8,
         "pelayananRating": 2.4,
@@ -2477,6 +2477,13 @@
         "rankOthers": 43,
         "reviews": [
             {
+                "text": "Menunya enak2, harga terjangkau, aman di dompet, rasa bintang 5, parkir luas, tempatnya  lega,cozy place, akses mudah pusat kota, enak buat kongkow lama2😄😄😄 ",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
                 "text": "Buka bersama dengan team kantor di Griffon Cafe & Lounge memberikan kesan bahagia. Suasana dan tempatnya sangat bagus, banyak spot foto estetik yg bisa diambil. Untuk makanannya lumayan enak, pelayanannya sangat baik.",
                 "suasana": 1,
                 "harga": 0,
@@ -2484,16 +2491,16 @@
                 "others": 0
             },
             {
-                "text": "Makanannya standar enak, Layanan agak kurang karena bill tercampur dengan pesanan orang lain, Suasana nyaman dan boleh jug sih,...\nTapi intinya bagus sih",
-                "suasana": 1,
+                "text": "Tempat Nyaman,suasana oke cocok buat photo selfie2.\nTempat keren banget,makanan enak harga masih relatif terjangkau gak bikin kantong bolong.buat anak2 muda yg kost dan pelajar oke banget buat nongkrong2 santuy bareng.pokok nya Griffon siipp banget.",
+                "suasana": 0,
                 "harga": 0,
                 "pelayanan": 0,
-                "others": 0
+                "others": 1
             },
             {
-                "text": "Well, mau ulas tempat yang ini.\nBangunanya model bangunan eropa, dan suasananya bagus juga. ",
+                "text": "Tempatnya ok,nyaman cocok buat sellfi\"apalagi makananya enak\" bangget.pilihan menunya juga banyak fariasinya,harga juga relatif terjangkau.griffon cafe the best",
                 "suasana": 1,
-                "harga": 0,
+                "harga": 1,
                 "pelayanan": 0,
                 "others": 0
             },
@@ -2505,6 +2512,27 @@
                 "others": 0
             },
             {
+                "text": "Pelayanan memuaskan",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
+            },
+            {
+                "text": "Makanannya standar enak, Layanan agak kurang karena bill tercampur dengan pesanan orang lain, Suasana nyaman dan boleh jug sih,...\nTapi intinya bagus sih",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Viewnya bagus bisa buat foto selfie, buat kumpul2 teman dan acara keluarga. Makanan juga enak dan cukup terjangkau.\nSuka sekali di Griffon Café.",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
                 "text": "highly recommended!!!! tempatnya bagus, makannya enak, dan pelayanannya toppp bgt!!! even admin wa nya aja responsif bangett dan baik!!!!",
                 "suasana": 0,
                 "harga": 0,
@@ -2512,35 +2540,7 @@
                 "others": 0
             },
             {
-                "text": "tempat ternyaman untuk bersantai dgn keluarga maupun teman,kedua kalinya kesini acara bday pelayannya ramah bgt <3🎀 ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Pelayanannya ramah ramah\nMakanannya enak\nRekomended untuk acara keluarga, suasanya tenang",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Tempat nya nyaman, pelaayanannya bagus, makanan dan minumannya enak enak",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Karyawan nya sangat ramah dan energik, ruangan nya bersih dan makanan nya enak ...GRIFFON the higest recomanded place to visit.....",
-                "suasana": 0,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Suasana tenang nyaman, namun spti gedung tidak terpakai. Makanan spti di pinggir jalan, plating makanan tidak rapi spti layaknya cafe & lounge, rasa jg biasa",
+                "text": "Well, mau ulas tempat yang ini.\nBangunanya model bangunan eropa, dan suasananya bagus juga. ",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
@@ -2553,7 +2553,7 @@
         "name": "HOHO Coffee Tunjungan",
         "address": "Jl. Tunjungan No. 53, Genteng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.3,
+        "overallRating": 4.6,
         "suasanaRating": 2.6,
         "hargaRating": 1.6,
         "pelayananRating": 4.0,
@@ -2570,7 +2570,7 @@
         "name": "Halaman 78 Café",
         "address": "Jl. Sumatra No. 78, Gubeng, Kec. Gubeng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.4,
+        "overallRating": 4.9,
         "suasanaRating": 3.2,
         "hargaRating": 1.6,
         "pelayananRating": 3.3,
@@ -2582,30 +2582,9 @@
         "rankOthers": 45,
         "reviews": [
             {
-                "text": "Ini kali kedua saya kesini.. Untuk yang sedang mencari tempat makan, nongkrong, dan melamun di Surabaya, cafe ini cocok dengan lokasi di pinggir sungai yang syahdu dan luas.  Lokasi ramah anak juga loh dan ada live music nya.. ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
                 "text": "Makanannya enak dan lumayan murah. Vibesnya enak banget (literally you can dinner with view lah ya). Ada playgroudnya juga. Jadi bs ngajar anak anak",
                 "suasana": 0,
                 "harga": 1,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Pertama kali di Surabaya dapet tempat dan suasana yang estetik. Berlokasi di tengah kota, akses gampang tapi Lahan parkir Terbatas untuk Roda 4\nMakanan banyak variasi dan harga yang cukup terjangkau. ",
-                "suasana": 1,
-                "harga": 1,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Dateng malam-malam, suasananya cukup tenang. Musiknya tipe pop punk lagu kekinian yang volumenya pas, jadi ngobrol masih aman. Fix tempat yg cocok buat nongki nih! ",
-                "suasana": 1,
-                "harga": 0,
                 "pelayanan": 0,
                 "others": 0
             },
@@ -2617,9 +2596,30 @@
                 "others": 0
             },
             {
+                "text": "Ini kali kedua saya kesini.. Untuk yang sedang mencari tempat makan, nongkrong, dan melamun di Surabaya, cafe ini cocok dengan lokasi di pinggir sungai yang syahdu dan luas.  Lokasi ramah anak juga loh dan ada live music nya.. ",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Pertama kali di Surabaya dapet tempat dan suasana yang estetik. Berlokasi di tengah kota, akses gampang tapi Lahan parkir Terbatas untuk Roda 4\nMakanan banyak variasi dan harga yang cukup terjangkau. ",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
                 "text": "Suasana asik dengan pemandangan sungai dan taman yg asri, makanan enak, kids friendly, pelayanan oke ramah, bisa diulangi lagi sepertinya 😊 ",
                 "suasana": 1,
                 "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Tempatnya nyaman banget suasananya juga enak banget pas banget untuk nongkrong, ngelamun, kerja vibes nya nyaman untuk semua kondisi, pelayanan cepat dan paling penting ramah tamah sekali semua, harga oke masih terjangkau rasa juga enak ",
+                "suasana": 1,
+                "harga": 1,
                 "pelayanan": 1,
                 "others": 0
             },
@@ -2631,24 +2631,24 @@
                 "others": 0
             },
             {
+                "text": "Dateng malam-malam, suasananya cukup tenang. Musiknya tipe pop punk lagu kekinian yang volumenya pas, jadi ngobrol masih aman. Fix tempat yg cocok buat nongki nih! ",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Makanan sangat bervariasi dan sangat terjangkau harganya, suasana lingkungan sangat mendukung dan tempatnya sangat enak dan nyaman dibuat tugas pokoknya approve banget",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "tempatnya nyaman bgt, pelayanan cepat dan makanannya enak bgtt tahkyuuu",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Tempatnya cozy banget, sekarang udah banyak kursinya. Live music nya juga hampir tiap hari ada. DAN ADA BIRTHDAY TREATS!!! bisa suprise mas pacar disini dibantu temen2 crew GRATIS!! dan bisa klaim snack for free jugaa. Tempatnya seruu pol. Crewnya ramah-ramah. Semoga besok toiletnya bisa ditambahyyaaa💕 ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "tempatnya nyaman bangett, adem, aesthetic, pelayanannya juga ramah bangett, makanan dan minumannya enak enak semua, wifinya juga lancar bangettt, cocok buat WFC atau sekedar nongki bareng teman, recommended gaiss🙌🏻🤩 ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
                 "others": 0
             }
         ]
@@ -2658,7 +2658,7 @@
         "name": "Historica",
         "address": "Jl. Sumatra No. 40, Gubeng, Kec. Gubeng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.4,
         "suasanaRating": 3.8,
         "hargaRating": 2.1,
         "pelayananRating": 1.9,
@@ -2669,13 +2669,6 @@
         "rankPelayanan": 46,
         "rankOthers": 46,
         "reviews": [
-            {
-                "text": "Tempat dan suasana enak, cozy. Sayang pelayanannya sangat lama, makanannya lama keluar, saya pesan air mineral saja sampai 30mnt lebih, pesan tiramisu ternyata sngt below expectation.. Tiramisu seperti roti biasa, bukan terbuat dari lady ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
             {
                 "text": "Makanan sih cukup oke worth it dengan harga nya , tapi kurang nyaman sekali karena AC mati tidak diperbaiki & waktu kita makan ada waiter cowok tiba tiba nawarin untuk Refill minuman kita ternyata sampai satu jam gak datang Refill , pitcher ",
                 "suasana": 0,
@@ -2691,6 +2684,20 @@
                 "others": 0
             },
             {
+                "text": "Tempat dan suasana enak, cozy. Sayang pelayanannya sangat lama, makanannya lama keluar, saya pesan air mineral saja sampai 30mnt lebih, pesan tiramisu ternyata sngt below expectation.. Tiramisu seperti roti biasa, bukan terbuat dari lady ",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Mampir ke Historica dan overall pengalamannya enak.\nMakanannya sesuai ekspektasi, rasanya pas, dan menurut gue worth it dengan harganya. ",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
                 "text": "Cafe dengan ambience yang sangat nyaman, tempat nya sangat luas, pilihan menu yg sangat beragam, kopi nya pun enak. Tempat parkir gratis ini yg saya suka, pelayanan nya ramah.",
                 "suasana": 0,
                 "harga": 0,
@@ -2698,10 +2705,24 @@
                 "others": 0
             },
             {
+                "text": "Kafe dengan konsep natural outdoor dekorasi yang bagus. Daerah outdoornya cukup byk nyamuk jadi kurang nyaman. Harganya cukup terjangkau dan banyak pilihan makanan dan minumannya. Smoga bisa lebih baik lage dalam mengurangi nyamuknya di daerah outdoor.",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
                 "text": "Salah 1 cafe surabaya yg cukup estetik. Cafe ini memiliki interior estetik dan cukup mudah di jangkau. Cafe ini pun memiliki 3 pilihan tempat indoor, outdoor, dan smokingroom. Dengan ke 3 pilihan ini sangat memudahkan pengunjung utk memilih ",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Pros: lokasi strategis, harga ramah di kantong, suasana cukup ok.\n\nCons: tempat parkir sedikit, rasa dari es kopi hitamnya kurang enak (mungkin biji kopinya sdh lama atau terlalu banyak air).",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
                 "others": 0
             },
             {
@@ -2717,27 +2738,6 @@
                 "harga": 0,
                 "pelayanan": 0,
                 "others": 0
-            },
-            {
-                "text": "Mampir ke Historica dan overall pengalamannya enak.\nMakanannya sesuai ekspektasi, rasanya pas, dan menurut gue worth it dengan harganya. ",
-                "suasana": 0,
-                "harga": 1,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Kafe dengan konsep natural outdoor dekorasi yang bagus. Daerah outdoornya cukup byk nyamuk jadi kurang nyaman. Harganya cukup terjangkau dan banyak pilihan makanan dan minumannya. Smoga bisa lebih baik lage dalam mengurangi nyamuknya di daerah outdoor.",
-                "suasana": 1,
-                "harga": 1,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempat yang cozy, pas buat nongkrong bareng temen atau keluarga, menunya sangat beragam dan enak2 semua, pelayanan oke, tempat parkir tidak terlalu luas tapi ada petugas yg siap mengatur... Saya suka 😁👍 ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
             }
         ]
     },
@@ -2746,7 +2746,7 @@
         "name": "JJ Lake Café",
         "address": "Jl. CitraLand Raya Utama, Sambikerep, Surabaya Barat",
         "imageUrl": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.2,
         "suasanaRating": 2.9,
         "hargaRating": 2.3,
         "pelayananRating": 2.6,
@@ -2765,7 +2765,35 @@
                 "others": 0
             },
             {
+                "text": "Tempat nongkrong yang enak dengan view yang bagus di pinggir danau, cocok buat ngobrol dan santai. Pelayanan ramah dan cepat, tempat duduk juga banyak. Makanan yang disajikan saya rasa standart saja, baik dari segi pilihan menu maupun secara taste.",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
                 "text": "Makanan enak sih  aku coba Rawon dan Pangsit gorengnya. Enak kental.View nya danau tapi kadang danaunya belum beraih jadi kurang seger, tapi kadang juga terlihat indah. .akan ditemani angin sepoi2 dan danau memang menarik.",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
+            },
+            {
+                "text": "Cafe estetik di surabaya barat, view cakep ditepi danau, kalo kesini sore hari lebih keren lagi😅\nMakanan rasa lumayan lah, harga standart cafe umumnya ",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "nice place with lake view. makanannya jg enak2. pelayanan juga ramah. tp sayang pas kesini sempet hujan deres, padahal dapet tempat duduk yg deket lake nya, meski sempet ditutup tirai tp masi kena hujan.",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Bukan tempat baru tp aku nya yg baru nyoba karna klo awal males sama rame nya.🙄Emang gk pesen banyak karna dr rumah udah makan pngnnya cuman ngedesert sm nyamil 😂😂 ",
                 "suasana": 0,
                 "harga": 0,
                 "pelayanan": 0,
@@ -2779,53 +2807,25 @@
                 "others": 0
             },
             {
-                "text": "Ada banyak variasi menu dari indonesia hingga western. Nasi hingga pasta. Minuman pun bervariasi dari kopi hingga lassi dan soda.\nSuasana lumayan nyaman dan untuk pecinta burung, tempat ini punya kandang burung ",
+                "text": "Tempat nyaman bgt, makanan n minuman jg enak cuma harga makanan lumayan mahal. Kalau harga minuman standart cafe ",
                 "suasana": 1,
-                "harga": 0,
+                "harga": 1,
                 "pelayanan": 0,
                 "others": 0
             },
             {
-                "text": "Tempat nongkrong menyenangkan di tepi kanal danau di area Citraland. Suasana nya nyaman dan asri di sebelah koridor tepi danau. Menu yg di sajikan cukup variatif dari makanan ringan snack, coffe, masakan Indon dll...Recommended utk ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempat nongkrong yang enak dengan view yang bagus di pinggir danau, cocok buat ngobrol dan santai. Pelayanan ramah dan cepat, tempat duduk juga banyak. Makanan yang disajikan saya rasa standart saja, baik dari segi pilihan menu maupun secara taste.",
-                "suasana": 1,
+                "text": "Pelayanannya bagus yaa, harga sedikit pricey. Utk makanan Saya pesan sushi dan gado2, rasa dan platingnya sih kurang dgn harga segitu mungkin saya sarankan utk pesan roti2 atau snack aja aman ",
+                "suasana": 0,
                 "harga": 0,
                 "pelayanan": 1,
                 "others": 0
             },
             {
-                "text": "Sayangnya ada biaya tambahan 2x dri pajak dn service. But, Suasana nya begitu menyenangkan, sejuk dan menenangkan, apalagi pas habis hujan. Terasa seperti di Kota Batu, tapi nyatanya masih di Surabaya 😃. Di Belakang kafe tersedia ",
-                "suasana": 1,
+                "text": "Minuman rasanya cukup oke\nMakanan lumayan.\nTapi untuk view nya memang juara ",
+                "suasana": 0,
                 "harga": 0,
                 "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempatnya nyaman banget dan unik. Sesuai namanya terletak di tepi danau. Bagus banget liat sunset sambil makan. Semua menu yang dicoba ok sih rasanya. Gak ada yang mengecewakan jadi sesuai lah dengan harganya. Sayang gak ada musholla yang proper. Jadi waktu mau solat magrib kemarin numpang di tempat solat karyawan nan sempit.",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Resto yang berada di lingkungan perumahan Citraland, Surabaya Barat. Tempatnya nyaman dan bagus, ada disebelahnya danau buatan. Ada meja indoor maupun outdoor. ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Ambience nya bagus banget, nyaman dan ga berisik pula. Ke sini mending sore deket2 jam sunset biar pemandangan tambah bagus. Kalau siang hawa panasnya Surabaya masih ga ketolong sama kipas angin. ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
+                "others": 1
             }
         ]
     },
@@ -2834,7 +2834,7 @@
         "name": "JOKOPI Tunjungan",
         "address": "Jl. Tunjungan No. 22, Genteng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.0,
+        "overallRating": 4.4,
         "suasanaRating": 2.6,
         "hargaRating": 3.0,
         "pelayananRating": 1.2,
@@ -2851,7 +2851,7 @@
         "name": "Karmenseve Coffee Shop",
         "address": "Jl. Manyar Kertoarjo No. 17, Manyar Sabrangan, Kec. Mulyorejo, Surabaya Timur",
         "imageUrl": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.6,
         "suasanaRating": 3.4,
         "hargaRating": 2.0,
         "pelayananRating": 1.9,
@@ -2862,6 +2862,13 @@
         "rankPelayanan": 51,
         "rankOthers": 16,
         "reviews": [
+            {
+                "text": "Walau tempatnya terhalang pohon2, tapi dalamnya cozy, nyaman. Pelayanan jg ramah & cekatan. Harga standar. Untuk makanan lumayan enak. Pesan omurice, nasi gorengnya pas bumbunya asinnya , ada rasa bawangnya juga. Omelletenya teksturnya ",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 1,
+                "others": 0
+            },
             {
                 "text": "makanan enak-enak banget, pelayanannya juga ramahhh, suasana cenderung sepi jadi cocok buat yang mau wfc, pemandangan langsung menghadap ke jalanan, tenang banget rasanya sambil lihat orang berlalu-lalang. tapi, ac nya dinginnn bgttt",
                 "suasana": 1,
@@ -2877,10 +2884,17 @@
                 "others": 1
             },
             {
-                "text": "Tempat yang cocok untuk WFC (Work From Cafe), suasananya tenang dan nyaman, suara dari jalan raya tidak terdengar dari dalam ",
+                "text": "Suasana menyenangkan dan nyaman meskipun tempatnya kecil. Tertutup pohon kalau dilihat dari pinggir jalan namun itu justru membuat suasana adem. Harga makanan ala cafe-restoran, masih standarlah. Rasa enak. Pelayanan ramah. Tidak ada mushola tetapi dekat situ ada mushola di gang. Semoga lantai 2 bisa dipakai juga.",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Diajak anak nongkrong di sini tempat dia belajar bersama teman Unair, tempat nya nyaman, makanan enak porsinya bikin kenyang, minuman enak. Pegawai nya ramah, sopan, baik. Parkir motor, mobil aman. Letaknya sebelah lampu merah pertigaan arah mau ke kampus B dari dharmahusada/ setelah pasar karmen.",
                 "suasana": 1,
                 "harga": 0,
-                "pelayanan": 0,
+                "pelayanan": 1,
                 "others": 0
             },
             {
@@ -2891,38 +2905,17 @@
                 "others": 1
             },
             {
-                "text": "Diajak anak nongkrong di sini tempat dia belajar bersama teman Unair, tempat nya nyaman, makanan enak porsinya bikin kenyang, minuman enak. Pegawai nya ramah, sopan, baik. Parkir motor, mobil aman. Letaknya sebelah lampu merah pertigaan arah mau ke kampus B dari dharmahusada/ setelah pasar karmen.",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Walau tempatnya terhalang pohon2, tapi dalamnya cozy, nyaman. Pelayanan jg ramah & cekatan. Harga standar. Untuk makanan lumayan enak. Pesan omurice, nasi gorengnya pas bumbunya asinnya , ada rasa bawangnya juga. Omelletenya teksturnya ",
-                "suasana": 0,
-                "harga": 1,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Staf sangat ramah, bintang 10000000🫶\nKopinya juga enak, mau manual brew, americano, seasonal coffee menu, latte, enak semua, sudah berkali-kali mampir kesini karena selain tempatnya nyaman dan ",
-                "suasana": 0,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Tersedia beragam varian kopi yang nikmat dan atmosfer yang menyenangkan di coffee shop ini! Suasana yang cozy dan dekorasi yang instagramable membuat pengalaman minum kopi di sini sangat menyenangkan. ",
+                "text": "Tempat yang cocok untuk WFC (Work From Cafe), suasananya tenang dan nyaman, suara dari jalan raya tidak terdengar dari dalam ",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
                 "others": 0
             },
             {
-                "text": "Coffee shop kecil di pinggir jalan karang menjangan. Tempatnya cozy, kadang ac nya dingin banget, karyawannya ramah semua. Makanan dan minuman enak enak. favorit saya oreo flatte dan grilled chicken buat tambahan protein harian hehe. Saksi ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 1,
+                "text": "nice place and good service❤️ 10/10✨ recommended bgt buat nongki dan kerja tugas, tempatnya bersih dan makanannya enak, harga nya juga terjangkau",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
                 "others": 0
             },
             {
@@ -2931,6 +2924,13 @@
                 "harga": 0,
                 "pelayanan": 0,
                 "others": 1
+            },
+            {
+                "text": "Cafe murah dan nyaman, ada 2 lantai. Yang di atas waktu kesana kayak cafe pribadi. Pelayanan juga cepet dan ramah. Untuk makanan harganya terjangkau dan rasanya cukup enak, tp untuk varian menunya tolong ditambah karena terlali sedikit. Untuk dimsumnya juga klu bisa ditambah. Over all sih oke oke aja 👍🏼 ",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 1,
+                "others": 0
             }
         ]
     },
@@ -2939,7 +2939,7 @@
         "name": "Kateko Surabaya",
         "address": "Jl. Ketintang No. 182, Ketintang, Kec. Gayungan, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.3,
+        "overallRating": 4.6,
         "suasanaRating": 3.0,
         "hargaRating": 2.4,
         "pelayananRating": 1.9,
@@ -2950,6 +2950,20 @@
         "rankPelayanan": 48,
         "rankOthers": 3,
         "reviews": [
+            {
+                "text": "Tempatnya sangat sejuk karena di bawah pepohonan yg bernuansa out door . food and  beverage nya sangat beragam dan sangat nikmat harganya pun terjangkau . Pokoknya rekomend banget buat nongrong sama temen atau keluarga",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Makanan sesuai selera\nLayanan ramah & bersahabat\nNyaman, adem",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
             {
                 "text": "Melipir kesini sambil tunggu jadwal kereta ke bandung.\nLokasi sangat strategis di pusat kota dekat stasiun Gubeng. ",
                 "suasana": 0,
@@ -2962,6 +2976,20 @@
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Tempatnya sangat nyaman. Masuk dari pintu hotel sahid. Parkir mobil sangat luas. Ada toilet dan musholla. Tiap malam ada live music. Pilihan minuman dan snack banyak. Harga standar kafe",
+                "suasana": 1,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Makanan lumayan enak martabaknya, suasananya rindang, yg paling jos pelayanannya, apalagi hari ini pelayannya cantik dan baik serta pengertian banget... Thanks KAfe TEngah KOta...👍👍👍 ",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 1,
                 "others": 0
             },
             {
@@ -2979,45 +3007,17 @@
                 "others": 0
             },
             {
-                "text": "Tempatnya berupa ruang terbuka semua. Jadi kalau ke sini lebih baik di sore atau malam hari supaya tidak terlalu panas anginnya. Hanya saja sayangnya waktu ke sana tuh kok agak kotor tempatnya. Banyak debu di bangkunya. Untuk lokasi ",
-                "suasana": 1,
-                "harga": 0,
+                "text": "Tempat tengah kota nyaman dan harga murah",
+                "suasana": 0,
+                "harga": 1,
                 "pelayanan": 0,
                 "others": 0
             },
             {
-                "text": "Pas banget buat event musik Underground Surabaya dengan nuansa out door. Sound system dan alat musiknya mantap. Terima kasih Kateko sudah memberi tempat para Metalhead SuROCKboyo untuk berkarya",
-                "suasana": 0,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 1
-            },
-            {
-                "text": "Makanan sesuai selera\nLayanan ramah & bersahabat\nNyaman, adem",
+                "text": "Overall pelayanannya bagus, sy order creamy mushroom chicken with potato. Sausnya enak. Pemesanannya agak ngetrap buat yang pertama kali kesini, makanan dan minuman punya station sendiri ",
                 "suasana": 0,
                 "harga": 0,
                 "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Rasa:  ehmmm 5/10. Kurang enak. Waktu itu pesen beef steak. Gak ada sambelnya minta gak dikasih dan amis. Minum nya es cincau\nMenu yang tersedia: macem2 sih bisa dicek di foto ",
-                "suasana": 0,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 1
-            },
-            {
-                "text": "Hal pertama yang saya notice dari tempat ini adalah banyaknya pepohonan 🌲 yang memberi kesan rindang walau terik matahari disiang hari bersinar 🌞(jadi meskipun anda ke tempat ini pada siang hari tetap terasa rindang & sejuk) dan juga tempat ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Pengalaman pertama kesini, ternyata tempatnya asik juga. Rindang dan teduh saat siang hari. Tempat duduknya outdoor tapi nggak kepanasan karena emang banyak pohonnya. Konsep kafe tengah kota ini bagus banget menurutku. Disini ada beberapa ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
                 "others": 0
             }
         ]
@@ -3027,7 +3027,7 @@
         "name": "Kirribilli Taman Asri",
         "address": "Jl. Taman Asri No. 40, Rungkut, Surabaya Timur",
         "imageUrl": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.3,
+        "overallRating": 4.5,
         "suasanaRating": 3.4,
         "hargaRating": 2.6,
         "pelayananRating": 2.2,
@@ -3038,6 +3038,20 @@
         "rankPelayanan": 24,
         "rankOthers": 18,
         "reviews": [
+            {
+                "text": "Snack dan mixology-nya top semua. Kafe-nya punya view unik ke jalan tol. Pencahayaan cafenya bagus buat foto-foto. Semua fasilitas rali dan bersih. Cocok buat nongkrong, ngerjain tugas atau me time. Harga menu relatif terjangkau.",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Pengalaman yang kurang menyenangkan. Satpam di kafe ini bersikap tidak ramah, mengarahkan pelanggan dengan cara yang tidak sopan, serta tidak menunjukkan sikap pelayanan yang baik, seperti senyum dan komunikasi yang santun. Hal ini membuat ",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
             {
                 "text": "Kesini kebetulan pas barengin anak yg jg ketemuan sama temennya.\n\nTempatnya asyik banget, ada 2 lantai, saya lebih suka room yang di lantai 1. ",
                 "suasana": 0,
@@ -3053,31 +3067,17 @@
                 "others": 0
             },
             {
-                "text": "Makanannya enak,\nTempatnya enak, wlpn tempatnya kecil jadi kl ada orang yang terlalu rame agak keganggu. ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Snack dan mixology-nya top semua. Kafe-nya punya view unik ke jalan tol. Pencahayaan cafenya bagus buat foto-foto. Semua fasilitas rali dan bersih. Cocok buat nongkrong, ngerjain tugas atau me time. Harga menu relatif terjangkau.",
-                "suasana": 0,
-                "harga": 1,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Suasananya cozy dan chill banget, dari pertama masuk aja udah berasa nyaman.💯\nAku coba americano triple shot nya, dan jujur rasanya smooth parah, strong tapi tetep enak banget diminum pelan², aftertaste nya clean dan satisfying. ",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
                 "text": "Cafe kekinian yg masakannya mirip2 ama d***da***ng surabaya. Tempatnya lumayan rame mobil cukup 4-5. Desainnya simple minimalis ada 2 lantai indoor dan outdoor. Dr segi makan rasanya enak dengan harga yg sepadan start d atas 25.000. utk waffle nya juga joss sayang jadinya lama bgt.",
                 "suasana": 0,
                 "harga": 1,
                 "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Pelayanan cepat. Saat ini tempat duduknya hanya ada di lt 2. Rencananya Awal Juli ini bakalan diperbesar. Toko roti di sampingnya dah dibeli dan siap2 jd tmpt duduk baru kirribili. Fitur plusnya, kalau kita duduk di lt2 dan mau mesen makan, ",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
                 "others": 0
             },
             {
@@ -3088,24 +3088,24 @@
                 "others": 1
             },
             {
-                "text": "the best cafe yg buat aku nyaman bgttt, hening bgtttt, nyaman bgttt, pokoknya bestttt !! sesering itu kesinii dari sebelum ada tempat duduk baru jg yg di bawah. yg sebelahnya masih toko roti pada waktu itu. enak bgttt dan aku nyaman bgt, ",
+                "text": "Makanannya enak,\nTempatnya enak, wlpn tempatnya kecil jadi kl ada orang yang terlalu rame agak keganggu. ",
                 "suasana": 1,
                 "harga": 0,
                 "pelayanan": 0,
                 "others": 0
             },
             {
-                "text": "Tempatnya strategis dekat dengan gerbang tol tambak sumur sidoarjo, cafenya kecil sih tapi layoutnya rapi, lt 1 area bar untuk order, lt 2 area makan indoor dan ada outdoor, ada toilet yang dibedain cewek cowok di lt 2 ",
-                "suasana": 0,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 1
-            },
-            {
                 "text": "Tempatnya enak. ACnya kurang dingin. Colokannya lengkap. Harganya 25ribu up. Disini ada menu bundling tiap harinya. Untuk black forestnya kurang. Katanya pake sirup rum, kurang ada rumnya. Ada tukang parkir.",
                 "suasana": 0,
                 "harga": 1,
                 "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Tempatnya seru pinggir jalan raya dan kelihatan jalanan Toll. Trus enak buat nyantai, ngobrol sama temen, ketemu orang dan nugas. Makanannya oke minumannya juga enak. Enak kerja sambil liat view mobil lewat Toll gini hehe. Tempatnya cukup rame biasanya, ada outdoor sama indoor. Pelayanannya baik dan ramah, pak satpamnya juga ramah.",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 1,
                 "others": 0
             }
         ]
@@ -3115,7 +3115,7 @@
         "name": "Kogu Space",
         "address": "Jl. Raya Darmo, Kec. Wonokromo, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.3,
+        "overallRating": 4.4,
         "suasanaRating": 3.0,
         "hargaRating": 2.2,
         "pelayananRating": 3.1,
@@ -3132,7 +3132,7 @@
         "name": "Kopi Ruah",
         "address": "Jl. Ketintang Baru, Kec. Gayungan, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.0,
+        "overallRating": 4.9,
         "suasanaRating": 3.1,
         "hargaRating": 1.3,
         "pelayananRating": 1.3,
@@ -3149,7 +3149,7 @@
         "name": "Kudos Café",
         "address": "Pakuwon Square AK 2 No. 3, Jl. Mayjen Yono Suwoyo, Wiyung, Surabaya Barat",
         "imageUrl": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.0,
+        "overallRating": 4.6,
         "suasanaRating": 2.6,
         "hargaRating": 1.4,
         "pelayananRating": 2.1,
@@ -3175,11 +3175,32 @@
                 "others": 0
             },
             {
+                "text": "Seperi yg tertera di foto, tempatnya super baguss. Instagramable, bisa buat nugas/kerja juga, indoor AC dan pastinya dipinggir jalan gede. Jadi kl nongkrong sore cocok bgt sambil liatin jalan 🥺💜 ",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
+            },
+            {
                 "text": "Suka dengan tempatnya saja sih, unik, estetik, banyak ornamen seperti di Bali. Dan hot matcha latte yang saya pesan enak, dan kental. Namun bisa dibilang mahal, dan harga juga belum termasuk pajak dan biaya layanan. ",
                 "suasana": 0,
                 "harga": 1,
                 "pelayanan": 0,
                 "others": 0
+            },
+            {
+                "text": "Suka suasananya kebetulan kami dapat yg view jalan raya, jadi keren... spot fotonya lumayan banyak,  menu makanannya bervariasi dan pelayanannya cepat dan ramah, terimakasih kudos cafe..",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 1,
+                "others": 0
+            },
+            {
+                "text": "Cafe yang sangat cocok untuk tempat nongkrong ataupun bekerja untuk area Surabaya Barat. ",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
             },
             {
                 "text": "Tempatnya selain cakep jg nyaman banget! Buat nugas oke, hangout juga oke. Menunya antimainstream, dan enak. Service mantab. Ada musholla.",
@@ -3196,39 +3217,18 @@
                 "others": 0
             },
             {
-                "text": "Lumayan sih dan nyaman. Cuman nggak ada smoking area.",
-                "suasana": 1,
+                "text": "tempat favorit untuk berlama lama sendiri. tempatnya cozy bgt staff nya ramah ramah, menu makanan enak enak semua dan spot utk foto foto estetik nya banyak juga!",
+                "suasana": 0,
                 "harga": 0,
-                "pelayanan": 0,
+                "pelayanan": 1,
                 "others": 0
             },
             {
-                "text": "Tempat asyik buat nongkrong bareng temen dan keluarga. Letaknya mudah dijangkau dan lahan parkirnya cukup luas. Ada 2 lantai (indoor dan outdoor) yang dilengkapi dengan nuansa putih dan ada hiasan dinding di beberapa area. Harga tergolong menengah keatas antara 30.000 hingga 60.000 untuk satu porsi menu makanan atau minuman.",
-                "suasana": 1,
-                "harga": 1,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Seperi yg tertera di foto, tempatnya super baguss. Instagramable, bisa buat nugas/kerja juga, indoor AC dan pastinya dipinggir jalan gede. Jadi kl nongkrong sore cocok bgt sambil liatin jalan 🥺💜 ",
+                "text": "Salah satu kafe hits surabaya,\nTempatnya ada beberapa lantai, cocok buat foto-foto, dan santai. ",
                 "suasana": 0,
                 "harga": 0,
                 "pelayanan": 0,
                 "others": 1
-            },
-            {
-                "text": "tempatnya enak, untuk nongkrong atau ngerjain sesuatu. Ada meeting room di lantai 1. Harga terjangkau, area parkir luas. Interiornya instagramable, art bgd. Dari masuk sampai ke lantai 2, suasana nya nyaman",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Tempat ok. Mknan kafe biasa. Standar kafe. Harga standar kafe. 50k /makanan krg lebih. Adem. Tapi ruangan terasa sempit. Saran saya datang pas siang atau pagi. Biar klo mau foto foto lebih leluasa. Whehe",
-                "suasana": 0,
-                "harga": 1,
-                "pelayanan": 0,
-                "others": 0
             }
         ]
     },
@@ -3237,7 +3237,7 @@
         "name": "Kwasong Café",
         "address": "Jl. Raya Citraland No. 10, Sambikerep, Surabaya Barat",
         "imageUrl": "https://images.unsplash.com/photo-1521017432531-fbd92028d8ed?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.7,
         "suasanaRating": 2.1,
         "hargaRating": 1.8,
         "pelayananRating": 2.9,
@@ -3249,6 +3249,13 @@
         "rankOthers": 10,
         "reviews": [
             {
+                "text": "Suka banget tempatnya bersih dan makanannya enakk! Worth it bgt harga dan rasanya 😍 kwasongnya juga enakkk ",
+                "suasana": 0,
+                "harga": 1,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
                 "text": "definisi croissant lezat, pelayananya pu. ramah, dan juga areanya luas. cocok untuk bsama keluarga dan teman untuk cafe brunch.",
                 "suasana": 0,
                 "harga": 0,
@@ -3256,7 +3263,21 @@
                 "others": 0
             },
             {
-                "text": "Suka banget tempatnya bersih dan makanannya enakk! Worth it bgt harga dan rasanya 😍 kwasongnya juga enakkk ",
+                "text": "Cafenya cantik, dan croissant nya enak. Suda coba kouign amann cranberry almond, enak 👍🏻 ",
+                "suasana": 0,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 1
+            },
+            {
+                "text": "Suasana cafe yang nyaman untuk ngopi sambil kerja. Kopinya enak.\nRekomendasi pokoknya.",
+                "suasana": 1,
+                "harga": 0,
+                "pelayanan": 0,
+                "others": 0
+            },
+            {
+                "text": "Berbagai macam pilihan bentuk maupun isian croissant dan ragam pilihan minuman kopi ataupun minuman rasa buah.\nHarga yg reasonable, porsi yg cukup, dan rasa yg nikmat\nBisa dine in atau take away",
                 "suasana": 0,
                 "harga": 1,
                 "pelayanan": 0,
@@ -3270,25 +3291,11 @@
                 "others": 0
             },
             {
-                "text": "Suasana cafe yang nyaman untuk ngopi sambil kerja. Kopinya enak.\nRekomendasi pokoknya.",
-                "suasana": 1,
-                "harga": 0,
-                "pelayanan": 0,
-                "others": 0
-            },
-            {
-                "text": "Cafenya cantik, dan croissant nya enak. Suda coba kouign amann cranberry almond, enak 👍🏻 ",
+                "text": "Croissantnya sdh terkenal enak enak",
                 "suasana": 0,
                 "harga": 0,
                 "pelayanan": 0,
                 "others": 1
-            },
-            {
-                "text": "Cafe simple dengan ada table service di sini. Datang duduk, nanti waiter datang, bisa lgsg pesan, dan minta bill di akhir. Nanti juga makanan diantar oleh waiter. Atau bisa pilih2 di konter. So far makanan dan minuman ok, banyak pastry enak ",
-                "suasana": 0,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
             },
             {
                 "text": "ownernya baik banget, mbak masnya juga ramah. Croissant nya enak! ngga kering. Rasanya macem macem bisa dikasi topping juga. Cocok buat ultah 🥰. Tempatnya cozy, adem, cocok buat brunch ",
@@ -3298,21 +3305,14 @@
                 "others": 0
             },
             {
-                "text": "Gak sengaja mau nongkrong cari cafe sekitaran g-walk atau lontar, nyasar ke Kwasong Cafe di Ruko One Arcade ARA 11 - 12, Citraland. Tempatnya luas, tenang (masih pagi), dan nyaman buat kerja. Pastry-nya menarik tampilannya. Pesan Apple raisin enak juga. Tambahan lagi Mbak nya yg melayani pagi ini ramah dan helpfull.",
-                "suasana": 0,
-                "harga": 0,
+                "text": "Menu banyak varian croissant dengan pilihan isi sesuai selera. Rasanya enak & harga mulai 18rb an. Untuk layanan agak kurang baik & ramah. Suasananya ok lah ada 2 lantai indoor",
+                "suasana": 1,
+                "harga": 1,
                 "pelayanan": 1,
                 "others": 0
             },
             {
-                "text": "Kwasongnya gaada yg gagal, semua staffnya juga super ramahhh",
-                "suasana": 0,
-                "harga": 0,
-                "pelayanan": 1,
-                "others": 0
-            },
-            {
-                "text": "Rasa croissant cukup enak terutama ham & cheesenya, sayang pelayanan sangat buruk, pesanan truffle french fries lupa dibuatkan , saat pesanan tsb akhirnya disajikan, tidak ada sepatah kata maafpun yang diucapkan. Very very bad service.",
+                "text": "Cafe simple dengan ada table service di sini. Datang duduk, nanti waiter datang, bisa lgsg pesan, dan minta bill di akhir. Nanti juga makanan diantar oleh waiter. Atau bisa pilih2 di konter. So far makanan dan minuman ok, banyak pastry enak ",
                 "suasana": 0,
                 "harga": 0,
                 "pelayanan": 1,
@@ -3325,7 +3325,7 @@
         "name": "LOT Coffee",
         "address": "Jl. Raya Kupang Indah, Kec. Sukomanunggal, Surabaya Barat",
         "imageUrl": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.7,
         "suasanaRating": 2.3,
         "hargaRating": 1.3,
         "pelayananRating": 3.6,
@@ -3342,7 +3342,7 @@
         "name": "LOUVE",
         "address": "Jl. Raya Darmo Permai, Kec. Sukomanunggal, Surabaya Barat",
         "imageUrl": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 2.8,
+        "overallRating": 4.2,
         "suasanaRating": 1.7,
         "hargaRating": 2.2,
         "pelayananRating": 1.8,
@@ -3359,7 +3359,7 @@
         "name": "Liberia Eatery",
         "address": "Jl. Manyar Kertoarjo, Kec. Mulyorejo, Surabaya Timur",
         "imageUrl": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.3,
+        "overallRating": 4.5,
         "suasanaRating": 3.3,
         "hargaRating": 2.5,
         "pelayananRating": 1.9,
@@ -3376,7 +3376,7 @@
         "name": "Loske Coffe Service Tunjungan",
         "address": "Jl. Tunjungan, Kec. Genteng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.0,
+        "overallRating": 4.3,
         "suasanaRating": 2.7,
         "hargaRating": 1.3,
         "pelayananRating": 2.8,
@@ -3393,7 +3393,7 @@
         "name": "Mawu Café",
         "address": "Jl. Manyar Kertoarjo, Kec. Mulyorejo, Surabaya Timur",
         "imageUrl": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.0,
+        "overallRating": 4.4,
         "suasanaRating": 1.7,
         "hargaRating": 3.5,
         "pelayananRating": 2.0,
@@ -3410,7 +3410,7 @@
         "name": "Mojako Semampir Tengah",
         "address": "Jl. Semampir Tengah, Kec. Krembangan, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.5,
         "suasanaRating": 2.6,
         "hargaRating": 2.9,
         "pelayananRating": 2.4,
@@ -3427,7 +3427,7 @@
         "name": "Monopole Coffee Lab",
         "address": "Jl. Embong Kenongo, Kec. Genteng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 2.9,
+        "overallRating": 4.5,
         "suasanaRating": 2.2,
         "hargaRating": 1.3,
         "pelayananRating": 2.8,
@@ -3444,7 +3444,7 @@
         "name": "N Coffee & Eatery",
         "address": "Jl. Ngagel Jaya Selatan, Kec. Gubeng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.9,
         "suasanaRating": 2.3,
         "hargaRating": 2.5,
         "pelayananRating": 2.2,
@@ -3461,7 +3461,7 @@
         "name": "OL and NU Café Eatery",
         "address": "Jl. Rungkut Industri, Kec. Rungkut, Surabaya Timur",
         "imageUrl": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.4,
+        "overallRating": 4.9,
         "suasanaRating": 3.7,
         "hargaRating": 1.8,
         "pelayananRating": 2.5,
@@ -3478,7 +3478,7 @@
         "name": "Oh Dear Donkey",
         "address": "Jl. Raya Darmo, Kec. Wonokromo, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.1,
+        "overallRating": 4.4,
         "suasanaRating": 1.8,
         "hargaRating": 1.2,
         "pelayananRating": 3.7,
@@ -3495,7 +3495,7 @@
         "name": "Oh Gelato Café",
         "address": "Jl. Manyar Kertoarjo, Kec. Mulyorejo, Surabaya Timur",
         "imageUrl": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.6,
         "suasanaRating": 2.0,
         "hargaRating": 3.2,
         "pelayananRating": 1.7,
@@ -3512,7 +3512,7 @@
         "name": "Oi Kafe",
         "address": "Jl. Ketintang, Kec. Gayungan, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.1,
+        "overallRating": 4.5,
         "suasanaRating": 3.0,
         "hargaRating": 2.7,
         "pelayananRating": 1.7,
@@ -3529,7 +3529,7 @@
         "name": "One Pose Café",
         "address": "Jl. Kertajaya Indah, Kec. Mulyorejo, Surabaya Timur",
         "imageUrl": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 2.9,
+        "overallRating": 4.3,
         "suasanaRating": 3.0,
         "hargaRating": 1.9,
         "pelayananRating": 1.8,
@@ -3546,7 +3546,7 @@
         "name": "Onetwothree Café",
         "address": "Jl. Embong Malang, Kec. Genteng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.8,
         "suasanaRating": 2.4,
         "hargaRating": 1.2,
         "pelayananRating": 3.6,
@@ -3563,7 +3563,7 @@
         "name": "Patdua Coffee",
         "address": "Jl. Embong Cerme, Kec. Genteng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.7,
         "suasanaRating": 2.7,
         "hargaRating": 1.8,
         "pelayananRating": 3.2,
@@ -3580,7 +3580,7 @@
         "name": "Picaroll Café Bakery",
         "address": "Jl. Mayjen Sungkono, Kec. Dukuhpakis, Surabaya Barat",
         "imageUrl": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.3,
+        "overallRating": 5.0,
         "suasanaRating": 2.2,
         "hargaRating": 1.3,
         "pelayananRating": 2.8,
@@ -3597,7 +3597,7 @@
         "name": "Rasa Baru Café",
         "address": "Jl. Raya Gubeng, Kec. Gubeng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 2.8,
+        "overallRating": 4.6,
         "suasanaRating": 2.8,
         "hargaRating": 1.3,
         "pelayananRating": 1.2,
@@ -3614,7 +3614,7 @@
         "name": "Riverside Café",
         "address": "Jl. Dr. Ir. H. Soekarno (MERR), Kec. Rungkut, Surabaya Timur",
         "imageUrl": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.1,
+        "overallRating": 4.2,
         "suasanaRating": 2.7,
         "hargaRating": 2.4,
         "pelayananRating": 2.8,
@@ -3631,7 +3631,7 @@
         "name": "Rooftop",
         "address": "Jl. Tunjungan, Kec. Genteng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 2.9,
+        "overallRating": 4.3,
         "suasanaRating": 1.5,
         "hargaRating": 2.6,
         "pelayananRating": 2.6,
@@ -3648,7 +3648,7 @@
         "name": "Ruf Coffee & Eatery",
         "address": "Jl. Raya Gubeng, Kec. Gubeng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1521017432531-fbd92028d8ed?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.9,
         "suasanaRating": 2.3,
         "hargaRating": 1.2,
         "pelayananRating": 3.5,
@@ -3665,7 +3665,7 @@
         "name": "Rumah Keena",
         "address": "Jl. Ketintang Baru, Kec. Gayungan, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.7,
         "suasanaRating": 2.9,
         "hargaRating": 2.3,
         "pelayananRating": 2.6,
@@ -3682,7 +3682,7 @@
         "name": "Rustic Market",
         "address": "Jl. Dharmahusada, Kec. Gubeng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 2.9,
+        "overallRating": 4.5,
         "suasanaRating": 2.7,
         "hargaRating": 1.7,
         "pelayananRating": 1.9,
@@ -3699,7 +3699,7 @@
         "name": "Sambang Café",
         "address": "Jl. Embong Ploso, Kec. Genteng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.5,
+        "overallRating": 4.8,
         "suasanaRating": 3.8,
         "hargaRating": 2.4,
         "pelayananRating": 2.3,
@@ -3716,7 +3716,7 @@
         "name": "Shisha Boss Café",
         "address": "Jl. Tunjungan, Kec. Genteng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.0,
+        "overallRating": 4.7,
         "suasanaRating": 1.2,
         "hargaRating": 1.1,
         "pelayananRating": 4.2,
@@ -3733,7 +3733,7 @@
         "name": "Space K",
         "address": "Jl. Manyar Kertoarjo, Kec. Mulyorejo, Surabaya Timur",
         "imageUrl": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.0,
+        "overallRating": 4.5,
         "suasanaRating": 2.5,
         "hargaRating": 3.1,
         "pelayananRating": 1.2,
@@ -3750,7 +3750,7 @@
         "name": "Sult Café",
         "address": "Jl. Rungkut Madya, Kec. Rungkut, Surabaya Timur",
         "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.6,
         "suasanaRating": 2.0,
         "hargaRating": 2.9,
         "pelayananRating": 3.1,
@@ -3767,7 +3767,7 @@
         "name": "TOMORO Coffee Mer",
         "address": "Jl. Dr. Ir. H. Soekarno (MERR), Kec. Rungkut, Surabaya Timur",
         "imageUrl": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.8,
         "suasanaRating": 2.9,
         "hargaRating": 1.1,
         "pelayananRating": 3.5,
@@ -3784,7 +3784,7 @@
         "name": "The Good Press and Co",
         "address": "Jl. Tunjungan, Kec. Genteng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 2.9,
+        "overallRating": 4.8,
         "suasanaRating": 2.3,
         "hargaRating": 1.3,
         "pelayananRating": 2.1,
@@ -3801,7 +3801,7 @@
         "name": "The Localist Coffee",
         "address": "Jl. Darmo, Kec. Wonokromo, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.1,
+        "overallRating": 4.3,
         "suasanaRating": 3.6,
         "hargaRating": 2.0,
         "pelayananRating": 2.4,
@@ -3818,7 +3818,7 @@
         "name": "The Vinyk Chick Café",
         "address": "Jl. Mayjen Sungkono, Kec. Dukuhpakis, Surabaya Barat",
         "imageUrl": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.2,
+        "overallRating": 4.8,
         "suasanaRating": 2.4,
         "hargaRating": 1.1,
         "pelayananRating": 3.7,
@@ -3835,7 +3835,7 @@
         "name": "Titik Tengah Surabaya",
         "address": "Jl. Dr. Soetomo, Kec. Tegalsari, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.0,
+        "overallRating": 4.6,
         "suasanaRating": 2.7,
         "hargaRating": 2.4,
         "pelayananRating": 2.0,
@@ -3852,7 +3852,7 @@
         "name": "Tunjungan 39 Locahands",
         "address": "Jl. Tunjungan No. 39, Genteng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.3,
+        "overallRating": 4.7,
         "suasanaRating": 2.7,
         "hargaRating": 1.9,
         "pelayananRating": 3.6,
@@ -3869,7 +3869,7 @@
         "name": "VERTE Café",
         "address": "Jl. Raya Kupang Indah, Kec. Sukomanunggal, Surabaya Barat",
         "imageUrl": "https://images.unsplash.com/photo-1521017432531-fbd92028d8ed?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 3.1,
+        "overallRating": 4.7,
         "suasanaRating": 3.3,
         "hargaRating": 1.9,
         "pelayananRating": 2.0,
@@ -3886,7 +3886,7 @@
         "name": "Villos Café",
         "address": "Jl. Ngagel Jaya, Kec. Gubeng, Surabaya",
         "imageUrl": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=600",
-        "overallRating": 2.9,
+        "overallRating": 4.5,
         "suasanaRating": 1.3,
         "hargaRating": 2.6,
         "pelayananRating": 2.1,
