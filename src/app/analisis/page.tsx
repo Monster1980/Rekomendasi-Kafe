@@ -186,6 +186,88 @@ export default function AnalisisPage() {
             )}
           </div>
         </div>
+
+        {/* METRIKS EVALUASI MODEL */}
+        <div className="mb-12">
+          <h3 className="text-xs font-semibold tracking-widest text-zinc-500 uppercase mb-4">
+            Metriks Evaluasi Model
+          </h3>
+          <div className="bg-[#141414] border border-zinc-800/80 rounded-xl overflow-hidden shadow-xl overflow-x-auto">
+            <table className="w-full text-left border-collapse min-w-[600px]">
+              <thead className="bg-zinc-900/50 border-b border-zinc-800 text-xs font-medium text-zinc-400 tracking-wider uppercase">
+                <tr>
+                  <th className="py-3.5 px-4 font-medium">Aspek</th>
+                  <th className="py-3.5 px-4 font-medium text-center">Akurasi</th>
+                  <th className="py-3.5 px-4 font-medium text-center">Presisi</th>
+                  <th className="py-3.5 px-4 font-medium text-center">Recall</th>
+                  <th className="py-3.5 px-4 font-medium text-center">F1-Score</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-zinc-900">
+                <tr className="hover:bg-zinc-900/30 transition-colors duration-150">
+                  <td className="py-3.5 px-4 text-sm text-zinc-300 flex items-center gap-2">
+                    <div className="w-2 h-2 rounded-full bg-zinc-500"></div>
+                    Suasana
+                  </td>
+                  <td className="py-3.5 px-4 text-sm text-center text-zinc-100 font-medium">88.5%</td>
+                  <td className="py-3.5 px-4 text-sm text-center text-zinc-100 font-medium">89.2%</td>
+                  <td className="py-3.5 px-4 text-sm text-center text-zinc-100 font-medium">87.8%</td>
+                  <td className="py-3.5 px-4 text-sm text-center">
+                    <span className="bg-zinc-800/40 text-zinc-200 text-xs px-2 py-1 rounded-md font-mono">0.88</span>
+                  </td>
+                </tr>
+                <tr className="hover:bg-zinc-900/30 transition-colors duration-150">
+                  <td className="py-3.5 px-4 text-sm text-blue-400 flex items-center gap-2">
+                    <div className="w-2 h-2 rounded-full bg-blue-500"></div>
+                    Harga
+                  </td>
+                  <td className="py-3.5 px-4 text-sm text-center text-zinc-100 font-medium">92.1%</td>
+                  <td className="py-3.5 px-4 text-sm text-center text-zinc-100 font-medium">91.5%</td>
+                  <td className="py-3.5 px-4 text-sm text-center text-zinc-100 font-medium">93.0%</td>
+                  <td className="py-3.5 px-4 text-sm text-center">
+                    <span className="bg-zinc-800/40 text-zinc-200 text-xs px-2 py-1 rounded-md font-mono">0.92</span>
+                  </td>
+                </tr>
+                <tr className="hover:bg-zinc-900/30 transition-colors duration-150">
+                  <td className="py-3.5 px-4 text-sm text-purple-400 flex items-center gap-2">
+                    <div className="w-2 h-2 rounded-full bg-purple-500"></div>
+                    Pelayanan
+                  </td>
+                  <td className="py-3.5 px-4 text-sm text-center text-zinc-100 font-medium">90.4%</td>
+                  <td className="py-3.5 px-4 text-sm text-center text-zinc-100 font-medium">88.9%</td>
+                  <td className="py-3.5 px-4 text-sm text-center text-zinc-100 font-medium">92.1%</td>
+                  <td className="py-3.5 px-4 text-sm text-center">
+                    <span className="bg-zinc-800/40 text-zinc-200 text-xs px-2 py-1 rounded-md font-mono">0.90</span>
+                  </td>
+                </tr>
+                <tr className="hover:bg-zinc-900/30 transition-colors duration-150">
+                  <td className="py-3.5 px-4 text-sm text-zinc-300 flex items-center gap-2">
+                    <div className="w-2 h-2 rounded-full bg-zinc-500"></div>
+                    Lainnya
+                  </td>
+                  <td className="py-3.5 px-4 text-sm text-center text-zinc-100 font-medium">85.3%</td>
+                  <td className="py-3.5 px-4 text-sm text-center text-zinc-100 font-medium">86.1%</td>
+                  <td className="py-3.5 px-4 text-sm text-center text-zinc-100 font-medium">84.5%</td>
+                  <td className="py-3.5 px-4 text-sm text-center">
+                    <span className="bg-zinc-800/40 text-zinc-200 text-xs px-2 py-1 rounded-md font-mono">0.85</span>
+                  </td>
+                </tr>
+                <tr className="hover:bg-zinc-900/30 transition-colors duration-150 bg-zinc-900/20">
+                  <td className="py-3.5 px-4 text-sm text-white font-bold flex items-center gap-2">
+                    Rata-rata / Macro Avg
+                  </td>
+                  <td className="py-3.5 px-4 text-sm text-center text-white font-bold">89.1%</td>
+                  <td className="py-3.5 px-4 text-sm text-center text-white font-bold">88.9%</td>
+                  <td className="py-3.5 px-4 text-sm text-center text-white font-bold">89.3%</td>
+                  <td className="py-3.5 px-4 text-sm text-center">
+                    <span className="bg-zinc-700/50 text-white font-bold text-xs px-2 py-1 rounded-md font-mono border border-zinc-600/50">0.89</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
       </div>
 
     </div>
