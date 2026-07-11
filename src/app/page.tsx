@@ -117,9 +117,6 @@ export default function HomePage() {
         </div>
         
         <div className="flex items-center w-full md:w-auto justify-end gap-3">
-          <Link href="/analisis" className="text-zinc-300 hover:text-white text-sm font-bold transition">
-            Analisis
-          </Link>
           {/* Search Input */}
           <div className="relative w-full md:w-72">
             <input 
