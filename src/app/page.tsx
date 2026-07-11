@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState, useRef } from 'react';
-import { Search, X, Star, FlaskConical, ChevronRight } from 'lucide-react';
+import { Search, X, Star, FlaskConical, ChevronRight, BarChart3 } from 'lucide-react';
+import Link from 'next/link';
 import cafeData from '../../public/cafe_data.json';
 import DetailModal from '../components/DetailModal';
 
@@ -164,7 +165,7 @@ export default function HomePage() {
           </div>
         </div>
         
-        <div className="flex items-center w-full md:w-auto justify-end">
+        <div className="flex items-center w-full md:w-auto justify-end gap-2">
           {/* Search Input */}
           <div className="relative w-full md:w-72">
             <input 
@@ -187,6 +188,15 @@ export default function HomePage() {
               </button>
             )}
           </div>
+          {/* Evaluasi Button */}
+          <Link
+            href="/evaluasi"
+            className="flex items-center gap-1.5 bg-amber-600/20 hover:bg-amber-600/30 border border-amber-600/40 text-amber-400 hover:text-amber-300 px-3 py-2 rounded text-xs font-bold transition-all duration-200 hover:scale-105 active:scale-95 whitespace-nowrap"
+            title="Evaluasi Model"
+          >
+            <BarChart3 className="w-4 h-4" />
+            <span className="hidden sm:inline">Evaluasi</span>
+          </Link>
         </div>
       </nav>
 
